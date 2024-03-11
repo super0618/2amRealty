@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import * as Popover from "@radix-ui/react-popover";
-import { ChevronDown } from "react-feather";
+import NavItem from "@/components/navitem";
 
 export default function () {
 	const headerRef = useRef(null);
@@ -26,54 +26,39 @@ export default function () {
 			<div className="container mx-auto p-4 flex justify-between h-20 items-center">
 				<div className="font-black text-2xl">2amRealty</div>
 				<div className="flex">
-					<div className="py-2 px-3 text-xl font-bold">Home</div>
-					<Popover.Root>
-						<Popover.Trigger>
-							<div className="py-2 px-3 text-xl font-bold flex items-center gap-1">
-								<div>Buy</div>
-								<ChevronDown />
-							</div>
-						</Popover.Trigger>
-						<Popover.Content>
+					<NavItem label="Home" href="/" />
+					<NavItem
+						label="Buy"
+						dropdown={
 							<div className="bg-white py-2 text-black shadow-lg">
 								<div className="py-2 px-4 font-bold">Buy With Us</div>
 								<div className="py-2 px-4 font-bold">All Listings</div>
 								<div className="py-2 px-4 font-bold">Featured Listings</div>
 							</div>
-						</Popover.Content>
-					</Popover.Root>
-					<Popover.Root>
-						<Popover.Trigger>
-							<div className="py-2 px-3 text-xl font-bold flex items-center gap-1">
-								<div>Sell</div>
-								<ChevronDown />
-							</div>
-						</Popover.Trigger>
-						<Popover.Content>
+						}
+					/>
+					<NavItem
+						label="Sell"
+						dropdown={
 							<div className="bg-white py-2 text-black shadow-lg">
 								<div className="py-2 px-4 font-bold">Sell My Home</div>
 								<div className="py-2 px-4 font-bold">Market Snapshot</div>
 								<div className="py-2 px-4 font-bold">Home Valuation</div>
 							</div>
-						</Popover.Content>
-					</Popover.Root>
-					<Popover.Root>
-						<Popover.Trigger>
-							<div className="py-2 px-3 text-xl font-bold flex items-center gap-1">
-								<div>About</div>
-								<ChevronDown />
-							</div>
-						</Popover.Trigger>
-						<Popover.Content>
+						}
+					/>
+					<NavItem
+						label="About"
+						dropdown={
 							<div className="bg-white py-2 text-black shadow-lg">
 								<div className="py-2 px-4 font-bold">About Us</div>
 								<div className="py-2 px-4 font-bold">Contact Us</div>
 								<div className="py-2 px-4 font-bold">Partner With Us</div>
 							</div>
-						</Popover.Content>
-					</Popover.Root>
-					<div className="py-2 px-3 text-xl font-bold">SignIn</div>
-					<div className="py-2 px-3 text-xl font-bold">SignUp</div>
+						}
+					/>
+					<NavItem label="SignIn" href="/auth/signin" />
+					<NavItem label="SignUp" href="/auth/signup" />
 				</div>
 			</div>
 		</div>
