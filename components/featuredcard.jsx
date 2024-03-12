@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { MapPin } from "react-feather";
 
 export default function ({ thumb, user, username, type, title, location, beds, baths, sqft }) {

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import * as Popover from "@radix-ui/react-popover";
+import Link from "next/link";
 import NavItem from "@/components/navitem";
 
 export default function () {
@@ -24,41 +24,61 @@ export default function () {
 	return (
 		<div className="fixed top-0 left-0 right-0 z-50 duration-200 text-white" ref={headerRef}>
 			<div className="container mx-auto p-4 flex justify-between h-20 items-center">
-				<div className="font-black text-2xl">2amRealty</div>
+				<Link href="/" className="font-black text-2xl">
+					2amRealty
+				</Link>
 				<div className="flex">
 					<NavItem label="Home" href="/" />
 					<NavItem
 						label="Buy"
 						dropdown={
-							<div className="bg-white py-2 text-black shadow-lg">
-								<div className="py-2 px-4 font-bold">Buy With Us</div>
-								<div className="py-2 px-4 font-bold">All Listings</div>
-								<div className="py-2 px-4 font-bold">Featured Listings</div>
+							<div className="bg-white py-2 text-black shadow-lg flex flex-col">
+								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] duration-200">
+									Buy With Us
+								</Link>
+								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] duration-200">
+									All Listings
+								</Link>
+								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] duration-200">
+									Featured Listings
+								</Link>
 							</div>
 						}
 					/>
 					<NavItem
 						label="Sell"
 						dropdown={
-							<div className="bg-white py-2 text-black shadow-lg">
-								<div className="py-2 px-4 font-bold">Sell My Home</div>
-								<div className="py-2 px-4 font-bold">Market Snapshot</div>
-								<div className="py-2 px-4 font-bold">Home Valuation</div>
+							<div className="bg-white py-2 text-black shadow-lg flex flex-col">
+								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] duration-200">
+									Sell My Home
+								</Link>
+								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] duration-200">
+									Market Snapshot
+								</Link>
+								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] duration-200">
+									Home Valuation
+								</Link>
 							</div>
 						}
 					/>
 					<NavItem
 						label="About"
 						dropdown={
-							<div className="bg-white py-2 text-black shadow-lg">
-								<div className="py-2 px-4 font-bold">About Us</div>
-								<div className="py-2 px-4 font-bold">Contact Us</div>
-								<div className="py-2 px-4 font-bold">Partner With Us</div>
+							<div className="bg-white py-2 text-black shadow-lg flex flex-col">
+								<Link href="about" className="py-2 px-4 font-bold hover:bg-[#ccc] duration-200">
+									About Us
+								</Link>
+								<Link href="contact" className="py-2 px-4 font-bold hover:bg-[#ccc] duration-200">
+									Contact Us
+								</Link>
+								<Link href="partner" className="py-2 px-4 font-bold hover:bg-[#ccc] duration-200">
+									Partner With Us
+								</Link>
 							</div>
 						}
 					/>
-					<NavItem label="SignIn" href="/auth/signin" />
-					<NavItem label="SignUp" href="/auth/signup" />
+					<NavItem label="SignIn" href="/signin" />
+					<NavItem label="SignUp" href="/signup" />
 				</div>
 			</div>
 		</div>
