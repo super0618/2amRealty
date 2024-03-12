@@ -1,6 +1,6 @@
 "use client";
 import { Navigation, Pagination, Scrollbar, Autoplay, A11y } from "swiper/modules";
-import FeaturedCard from "@/components/featuredcard";
+import Featured from "@/components/featured";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function () {
@@ -27,9 +27,9 @@ export default function () {
 					loop
 				>
 					<SwiperSlide>
-						<FeaturedCard
-							thumb="/asssets/images/thumb1.jpg"
-							user="/asssets/images/user1.png"
+						<Featured
+							thumb="/assets/images/features/thumb1.jpg"
+							user="/assets/images/features/user1.png"
 							username="Ali Tufan"
 							type="Aprtment"
 							title="Luxury Family Home"
@@ -40,9 +40,9 @@ export default function () {
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<FeaturedCard
-							thumb="/asssets/images/thumb2.jpg"
-							user="/asssets/images/user2.png"
+						<Featured
+							thumb="/assets/images/features/thumb2.jpg"
+							user="/assets/images/features/user2.png"
 							username="Ali Tufan"
 							type="Bungalow"
 							title="Renovated Apartment"
@@ -53,9 +53,9 @@ export default function () {
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<FeaturedCard
-							thumb="/asssets/images/thumb3.jpg"
-							user="/asssets/images/user3.png"
+						<Featured
+							thumb="/assets/images/features/thumb3.jpg"
+							user="/assets/images/features/user3.png"
 							username="Ali Tufan"
 							type="Bungalow"
 							title="Single Family Home"
@@ -66,9 +66,9 @@ export default function () {
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<FeaturedCard
-							thumb="/asssets/images/thumb1.jpg"
-							user="/asssets/images/user1.png"
+						<Featured
+							thumb="/assets/images/features/thumb1.jpg"
+							user="/assets/images/features/user1.png"
 							username="Ali Tufan"
 							type="Aprtment"
 							title="Luxury Family Home"
@@ -79,9 +79,9 @@ export default function () {
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<FeaturedCard
-							thumb="/asssets/images/thumb2.jpg"
-							user="/asssets/images/user2.png"
+						<Featured
+							thumb="/assets/images/features/thumb2.jpg"
+							user="/assets/images/features/user2.png"
 							username="Ali Tufan"
 							type="Bungalow"
 							title="Renovated Apartment"
@@ -92,9 +92,9 @@ export default function () {
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<FeaturedCard
-							thumb="/asssets/images/thumb3.jpg"
-							user="/asssets/images/user3.png"
+						<Featured
+							thumb="/assets/images/features/thumb3.jpg"
+							user="/assets/images/features/user3.png"
 							username="Ali Tufan"
 							type="Bungalow"
 							title="Single Family Home"

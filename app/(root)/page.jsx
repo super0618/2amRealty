@@ -1,21 +1,21 @@
 import Landing from "@/components/ui/landing";
-import FeaturedProperty from "@/components/ui/featuredprop";
-import FindProperty from "@/components/ui/findprop";
+import Featureds from "@/components/ui/featureds";
+import Cities from "@/components/ui/cities";
 import Services from "@/components/ui/services";
 import Teams from "@/components/ui/teams";
-import Articles from "@/components/ui/articles";
-import Partner from "@/components/ui/partner";
+import Blogs from "@/components/ui/blogs";
+import Agent from "@/components/ui/agent";
 
 export default function Home() {
 	return (
 		<>
 			<Landing />
-			<FeaturedProperty />
-			<FindProperty />
+			<Featureds />
+			<Cities />
 			<Services />
 			<Teams />
-			<Articles />
-			<Partner />
+			<Blogs />
+			<Agent />
 		</>
 	);
 }

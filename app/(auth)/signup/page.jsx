@@ -8,7 +8,7 @@ export default function () {
 	return (
 		<div className="bg-gray-200 grid place-items-center h-screen">
 			<div className="grid grid-cols-5 w-[90%] h-[90%] max-w-[900px] max-h-[800px] shadow-xl">
-				<div className="col-span-2 hidden sm:block rounded-l-xl bg-[url('/asssets/images/sidebg.jpg')] bg-cover bg-center overflow-hidden relative before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[#1d293e] before:opacity-60">
+				<div className="col-span-2 hidden sm:block rounded-l-xl bg-[url('/assets/images/sidebg.jpg')] bg-cover bg-center overflow-hidden relative before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[#1d293e] before:opacity-60">
 					<div className="absolute top-6 left-6 text-white">
 						<Tooltip.TooltipProvider>
 							<Tooltip.Root delayDuration={0}>
@@ -48,7 +48,7 @@ export default function () {
 					</div>
 					<div>
 						<div className="w-full max-w-96 mx-auto text-center">
-							<div className="w-full px-4 py-3 rounded-md mb-4 border-[#ff5a5f] bg-[#ff5a5f] border-2 text-white font-bold text-center cursor-pointer duration-200 hover:bg-[#c44448]">
+							<div className="w-full px-4 py-3 rounded-md mb-2 border-[#ff5a5f] bg-[#ff5a5f] border-2 text-white font-bold text-center cursor-pointer duration-200 hover:bg-[#c44448]">
 								Register
 							</div>
 							<Link href="/forgot" className="text-[#8b91dd] hover:text-[#ff5a5f]">
