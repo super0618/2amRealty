@@ -5,3 +5,7 @@
 input:focus {
 	outline: 4px solid #a2d2ff99;
 }
+
+textarea:focus {
+	outline: 4px solid #a2d2ff99;
+}
