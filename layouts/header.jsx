@@ -6,31 +6,29 @@ import NavItem from "@/components/navitem";
 
 export default function () {
 	const headerRef = useRef(null);
+	const logoRef = useRef(null);
+
+	const setHeaderStyle = () => {
+		if (headerRef && logoRef) {
+			if (window.scrollY > 100) {
+				headerRef.current.style.backgroundColor = "#fff";
+				headerRef.current.classList.add("shadow-xl");
+				headerRef.current.style.color = "#666";
+				logoRef.current.style.color = "#e94c51";
+			} else {
+				headerRef.current.style.backgroundColor = "#fff0";
+				headerRef.current.style.color = "#fff";
+				headerRef.current.classList.remove("shadow-xl");
+				logoRef.current.style.color = "#fff";
+			}
+		}
+	};
 
 	useEffect(() => {
 		window.onscroll = () => {
-			if (!headerRef) return;
-			if (window.scrollY > 250) {
-				headerRef.current.style.backgroundColor = "#fff";
-				headerRef.current.classList.add("shadow-xl");
-				headerRef.current.style.color = "#666";
-			} else {
-				headerRef.current.style.backgroundColor = "#fff0";
-				headerRef.current.style.color = "#fff";
-				headerRef.current.classList.remove("shadow-xl");
-			}
+			setHeaderStyle();
 		};
-		if (headerRef) {
-			if (window.scrollY > 250) {
-				headerRef.current.style.backgroundColor = "#fff";
-				headerRef.current.classList.add("shadow-xl");
-				headerRef.current.style.color = "#666";
-			} else {
-				headerRef.current.style.backgroundColor = "#fff0";
-				headerRef.current.style.color = "#fff";
-				headerRef.current.classList.remove("shadow-xl");
-			}
-		}
+		setHeaderStyle();
 		return () => {
 			window.onscroll = () => {};
 		};
@@ -39,7 +37,7 @@ export default function () {
 	return (
 		<div className="fixed top-0 left-0 right-0 z-50 duration-200 text-white" ref={headerRef}>
 			<div className="container mx-auto p-4 flex justify-between h-20 items-center">
-				<Link href="/" className="font-black text-2xl">
+				<Link href="/" className="font-black text-2xl" ref={logoRef}>
 					2amRealty
 				</Link>
 				<div className="flex">
