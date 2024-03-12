@@ -9,6 +9,7 @@ export default function () {
 
 	useEffect(() => {
 		window.onscroll = () => {
+			if (!headerRef) return;
 			if (window.scrollY > 250) {
 				headerRef.current.style.backgroundColor = "#fff";
 				headerRef.current.classList.add("shadow-xl");
@@ -18,6 +19,20 @@ export default function () {
 				headerRef.current.style.color = "#fff";
 				headerRef.current.classList.remove("shadow-xl");
 			}
+		};
+		if (headerRef) {
+			if (window.scrollY > 250) {
+				headerRef.current.style.backgroundColor = "#fff";
+				headerRef.current.classList.add("shadow-xl");
+				headerRef.current.style.color = "#666";
+			} else {
+				headerRef.current.style.backgroundColor = "#fff0";
+				headerRef.current.style.color = "#fff";
+				headerRef.current.classList.remove("shadow-xl");
+			}
+		}
+		return () => {
+			window.onscroll = () => {};
 		};
 	}, []);
 
