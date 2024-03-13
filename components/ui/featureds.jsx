@@ -5,20 +5,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function () {
 	return (
-		<div className="bg-[#efefef]">
-			<div className="container mx-auto px-4 py-16">
+		<div className="bg-gray-50">
+			<div className="container py-16">
 				<div className="text-4xl font-bold text-[#333] mb-2 text-center">Featured Listings</div>
 				<div className="text-lg text-[#666] mb-12 text-center">Handpicked properties by our team.</div>
 				<Swiper
 					modules={[Navigation, Pagination, Scrollbar, Autoplay, A11y]}
-					spaceBetween={100}
+					spaceBetween={30}
 					breakpoints={{
-						1024: {
-							slidesPerView: 2,
-						},
-						1280: {
-							slidesPerView: 3,
-						},
+						750: { slidesPerView: 2 },
+						1050: { slidesPerView: 3 },
 					}}
 					centeredSlides
 					pagination={{ clickable: true }}
@@ -37,6 +33,7 @@ export default function () {
 							beds={1}
 							baths={1}
 							sqft={8280}
+							price={1500}
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
@@ -50,6 +47,7 @@ export default function () {
 							beds={4}
 							baths={5}
 							sqft={8180}
+							price={1800}
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
@@ -63,6 +61,7 @@ export default function () {
 							beds={3}
 							baths={2}
 							sqft={3280}
+							price={2700}
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
@@ -76,6 +75,7 @@ export default function () {
 							beds={1}
 							baths={1}
 							sqft={8280}
+							price={1600}
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
@@ -89,6 +89,7 @@ export default function () {
 							beds={4}
 							baths={5}
 							sqft={8180}
+							price={1200}
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
@@ -102,6 +103,7 @@ export default function () {
 							beds={3}
 							baths={2}
 							sqft={3280}
+							price={3200}
 						/>
 					</SwiperSlide>
 				</Swiper>

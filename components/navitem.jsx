@@ -7,7 +7,7 @@ export default function ({ label, href = "#", dropdown = null }) {
 		return (
 			<Popover.Root>
 				<Popover.Trigger>
-					<div className="py-2 px-3 text-lg font-bold flex items-center gap-1">
+					<div className="py-2 px-3 text-lg font-bold flex items-center gap-[2px]">
 						<div>{label}</div>
 						<ChevronDown />
 					</div>
@@ -17,7 +17,7 @@ export default function ({ label, href = "#", dropdown = null }) {
 		);
 	}
 	return (
-		<Link href={href} className="py-2 px-3 text-lg font-bold">
+		<Link href={href} className="p-2 text-lg font-bold">
 			{label}
 		</Link>
 	);
