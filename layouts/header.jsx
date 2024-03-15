@@ -45,7 +45,7 @@ export default function () {
 
 	return (
 		<div className="fixed top-0 left-0 right-0 z-[999] duration-200 text-white" ref={headerRef}>
-			<div className="container py-4 flex justify-between h-20 items-center">
+			<div className="container flex justify-between h-20 items-center">
 				<Link href="/" className="font-black text-2xl" ref={logoRef}>
 					2amRealty
 				</Link>

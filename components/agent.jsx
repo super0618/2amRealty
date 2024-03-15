@@ -6,7 +6,7 @@ export default function () {
 		<div className="rounded-md bg-white shadow-md max-w-[400px] mx-auto">
 			<div className="p-4 border-b">
 				<img src="/assets/images/agents/1.jpg" alt="agent1" className="rounded-lmd mb-4" />
-				<Link href="/agent/sfsef" className="font-bold text-[#666x] cursor-pointer mb-1 hover:text-[#ff5a5f]">
+				<Link href="/agent/sfsef" className="font-bold block text-[#666x] cursor-pointer mb-1 hover:text-[#ff5a5f]">
 					Renovated Apart
 				</Link>
 				<h2 className="text-[#ff5a5f] text-sm mb-2">Broker</h2>

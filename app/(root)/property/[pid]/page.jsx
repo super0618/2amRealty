@@ -9,7 +9,7 @@ import ViewedSide from "@/components/viewedside";
 export default function () {
 	return (
 		<div className="pt-32 pb-12 bg-gray-50">
-			<div className="container">
+			<div className="container mb-4">
 				<div className="flex justify-between items-center mb-4">
 					<div>
 						<h2 className="font-bold text-2xl text-[#333]">Luxury Family Home</h2>
