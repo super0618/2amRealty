@@ -6,7 +6,7 @@ import Testimonial from "@/components/testimonial";
 export default function () {
 	return (
 		<div className="bg-gray-50">
-			<div className="container mx-auto px-4 py-16">
+			<div className="container py-16">
 				<div className="text-4xl font-bold text-[#333] mb-2 text-center">Testimonials</div>
 				<div className="text-lg text-[#666] mb-12 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 				<Swiper
