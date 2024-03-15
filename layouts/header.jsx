@@ -44,7 +44,7 @@ export default function () {
 	}, [pathname]);
 
 	return (
-		<div className="fixed top-0 left-0 right-0 z-50 duration-200 text-white" ref={headerRef}>
+		<div className="fixed top-0 left-0 right-0 z-[999] duration-200 text-white" ref={headerRef}>
 			<div className="container py-4 flex justify-between h-20 items-center">
 				<Link href="/" className="font-black text-2xl" ref={logoRef}>
 					2amRealty
@@ -57,10 +57,10 @@ export default function () {
 								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
 									Buy With Us
 								</Link>
-								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
+								<Link href="/properties" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
 									All Listings
 								</Link>
-								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
+								<Link href="/featured" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
 									Featured Listings
 								</Link>
 							</div>
@@ -86,13 +86,13 @@ export default function () {
 						label="About"
 						dropdown={
 							<div className="bg-white py-2 text-black border border-gray-100 flex flex-col">
-								<Link href="about" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
+								<Link href="/about" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
 									About Us
 								</Link>
-								<Link href="contact" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
+								<Link href="/contact" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
 									Contact Us
 								</Link>
-								<Link href="partner" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
+								<Link href="/partner" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
 									Partner With Us
 								</Link>
 							</div>

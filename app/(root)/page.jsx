@@ -6,13 +6,13 @@ import Cities from "@/components/ui/cities";
 import Services from "@/components/ui/services";
 import Teams from "@/components/ui/teams";
 import Blogs from "@/components/ui/blogs";
-import Agent from "@/components/ui/agent";
+import AgentRegisterForm from "@/components/ui/agent-register-form";
 
 export default function Home() {
 	const router = useRouter();
 
 	const onSearch = () => {
-		router.push("/search");
+		router.push("/properties");
 	};
 
 	return (
@@ -47,7 +47,7 @@ export default function Home() {
 			<Services />
 			<Teams />
 			<Blogs />
-			<Agent />
+			<AgentRegisterForm />
 		</>
 	);
 }

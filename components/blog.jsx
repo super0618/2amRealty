@@ -1,6 +1,6 @@
 export default function ({ thumb, user, username, type, title }) {
 	return (
-		<div className="rounded-md bg-white shadow-2xl cursor-pointer max-w-[400px] mx-auto">
+		<div className="rounded-md bg-white shadow-lg cursor-pointer max-w-[400px] mx-auto">
 			<div className="p-4 border-b">
 				<img src={thumb} alt="thumb1" className="rounded-md mb-2" />
 				<div className="text-[#ff5a5f] px-2 font-bold mb-3">{type}</div>

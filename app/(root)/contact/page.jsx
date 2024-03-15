@@ -1,6 +1,6 @@
 import Landing from "@/components/landing";
 import ContactForm from "@/components/contactform";
-import Agent from "@/components/ui/agent";
+import AgentRegisterForm from "@/components/ui/agent-register-form";
 
 export default function () {
 	return (
@@ -14,7 +14,7 @@ export default function () {
 				loading="lazy"
 				referrerPolicy="no-referrer-when-downgrade"
 			></iframe>
-			<Agent />
+			<AgentRegisterForm />
 		</>
 	);
 }
