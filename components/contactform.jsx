@@ -4,7 +4,7 @@ export default function () {
 	return (
 		<div className="bg-gray-50">
 			<div className="container grid grid-cols-3 py-12 gap-6">
-				<div className="col-span-2 bg-white p-6 rounded-md shadow-sm">
+				<div className="col-span-2 bg-white p-6 rounded-md border">
 					<h2 className="font-bold mb-4">Send Us An Email</h2>
 					<p className="mb-4">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In gravida quis libero eleifend ornare. Maecenas mattis enim at arcu feugiat,
@@ -19,7 +19,7 @@ export default function () {
 					</div>
 					<div className="bg-[#ff5a5f] py-3 px-8 text-center inline-block text-white rounded-lg cursor-pointer hover:bg-[#e94c51]">Send Message</div>
 				</div>
-				<div className="bg-white p-6 rounded-md shadow-sm">
+				<div className="bg-white p-6 rounded-md border">
 					<h2 className="font-bold mb-6">Contact Us</h2>
 					<p className="mb-6">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In gravida quis libero eleifend ornare. habitasse platea dictumst.

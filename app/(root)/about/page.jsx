@@ -4,7 +4,7 @@ import Services from "@/components/ui/services";
 import Teams from "@/components/ui/teams";
 import Testimonials from "@/components/ui/testimonials";
 import Partners from "@/components/ui/partners";
-import Agent from "@/components/ui/agent";
+import AgentRegisterForm from "@/components/ui/agent-register-form";
 
 export default function () {
 	return (
@@ -15,7 +15,7 @@ export default function () {
 			<Teams />
 			<Testimonials />
 			<Partners />
-			<Agent />
+			<AgentRegisterForm />
 		</>
 	);
 }

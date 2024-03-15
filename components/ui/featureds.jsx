@@ -32,7 +32,6 @@ export default function () {
 							location="1421 San Pedro St, Los Angeles"
 							beds={1}
 							baths={1}
-							sqft={8280}
 							price={1500}
 						/>
 					</SwiperSlide>
@@ -46,7 +45,6 @@ export default function () {
 							location="1421 San Pedro St, Los Angeles"
 							beds={4}
 							baths={5}
-							sqft={8180}
 							price={1800}
 						/>
 					</SwiperSlide>
@@ -60,7 +58,6 @@ export default function () {
 							location="1421 San Pedro St, Los Angeles"
 							beds={3}
 							baths={2}
-							sqft={3280}
 							price={2700}
 						/>
 					</SwiperSlide>
@@ -74,7 +71,6 @@ export default function () {
 							location="1421 San Pedro St, Los Angeles"
 							beds={1}
 							baths={1}
-							sqft={8280}
 							price={1600}
 						/>
 					</SwiperSlide>
@@ -88,7 +84,6 @@ export default function () {
 							location="1421 San Pedro St, Los Angeles"
 							beds={4}
 							baths={5}
-							sqft={8180}
 							price={1200}
 						/>
 					</SwiperSlide>

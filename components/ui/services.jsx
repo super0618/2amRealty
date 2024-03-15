@@ -7,7 +7,7 @@ export default function () {
 			<div className="container py-16">
 				<div className="text-4xl font-bold text-[#333] mb-2 text-center">Our Services</div>
 				<div className="text-lg text-[#666] mb-12 text-center">Navigate the World of Real Estate with Excellence</div>
-				<div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
+				<div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-x-4 gap-y-6">
 					<Service
 						icon={<CreditCard size={36} />}
 						title="Buying"

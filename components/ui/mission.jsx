@@ -20,7 +20,7 @@ export default function () {
 						alias tempora.
 					</p>
 				</div>
-				<div className="hidden md:block md:col-span-2 bg-[url('/assets/images/about/thumb.jpg')] bg-center bg-cover shrink-0 bg-no-repeat rounded-2xl overflow-hidden"></div>
+				<div className="hidden md:block md:col-span-2 bg-[url('/assets/images/about/thumb.jpg')] bg-center bg-cover shrink-0 bg-no-repeat rounded-2xl overflow-hidden shadow-md"></div>
 			</div>
 		</div>
 	);

@@ -1,8 +1,9 @@
+import Link from "next/link";
 import { MapPin } from "react-feather";
 
-export default function ({ thumb, user, username, type, title, location, beds, baths, sqft, price }) {
+export default function ({ thumb, user, username, type, title, location, beds, baths, price }) {
 	return (
-		<div className="rounded-md bg-white shadow-2xl cursor-pointer max-w-[400px] mx-auto">
+		<div className="rounded-md bg-white shadow-lg max-w-[400px] mx-auto">
 			<div className="p-4 border-b">
 				<div className="relative after:content-[''] after:absolute after:inset-0 after:bg-[#1d293e] after:opacity-40 mb-2 rounded-md overflow-hidden">
 					<img src={thumb} alt="thumb1" width="100%" className="object-cover" />
@@ -12,8 +13,10 @@ export default function ({ thumb, user, username, type, title, location, beds, b
 					</div>
 					<div className="absolute bottom-4 left-4 text-white z-50">${price} / mo</div>
 				</div>
-				<div className="text-[#ff5a5f] px-2 font-bold mb-2 text-lg">{type}</div>
-				<div className="text-[#333] px-2 font-bold mb-2">{title}</div>
+				<div className="text-[#ff5a5f] px-2 mb-1 text-md">{type}</div>
+				<Link href="/property/z8392" className="text-[#333] px-2 font-bold mb-2 hover:text-[#ff5a5f]">
+					{title}
+				</Link>
 				<div className="px-2 flex items-center gap-1 mb-2">
 					<MapPin size={14} />
 					<p className="text-sm">{location}</p>
@@ -21,7 +24,6 @@ export default function ({ thumb, user, username, type, title, location, beds, b
 				<div className="px-2 grid grid-cols-3">
 					<div>Beds: {beds}</div>
 					<div>Baths: {baths}</div>
-					<div>SqFt: {sqft}</div>
 				</div>
 			</div>
 			<div className="py-3 px-6 flex justify-between items-center">
