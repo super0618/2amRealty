@@ -53,6 +53,7 @@ export default function () {
 							spaceBetween={10}
 							centeredSlides
 							pagination={{ clickable: true }}
+							autoplay
 							loop
 						>
 							<SwiperSlide>
