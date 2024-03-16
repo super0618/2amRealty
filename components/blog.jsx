@@ -1,18 +1,18 @@
-export default function ({ thumb, user, username, type, title }) {
+import { IconCalendar } from "@tabler/icons-react";
+
+export default function () {
 	return (
-		<div className="rounded-md bg-white shadow-lg cursor-pointer max-w-[400px] mx-auto">
-			<div className="p-4 border-b">
-				<img src={thumb} alt="thumb1" className="rounded-md mb-2" />
-				<div className="text-[#ff5a5f] px-2 font-bold mb-3">{type}</div>
-				<div className="text-[#333] px-2 font-bold mb-5 text-2xl text-nowrap overflow-hidden text-ellipsis">{title}</div>
+		<div className="border rounded-md bg-white shadow-sm">
+			<div className="p-2 mb-2">
+				<img src="/images/blogs/thumb1.jpg" alt="blog" />
 			</div>
-			<div className="py-7 px-6 flex justify-between items-center">
-				<div className="flex items-center gap-2">
-					<img src={user} alt="user" className="rounded-full" width={36} />
-					<p className="text-[#666] text-sm">{username}</p>
-				</div>
-				<p>1 year ago</p>
-			</div>
+			<h2 className="font-bold px-2 ">Redfin Ranks the Most Competitive Neighborhoods of 2022</h2>
+			<p className="text-sm p-2 border-b">
+				Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Duis Mollis Et Sem Sed Sollicitudin. Donec Non Odio Neque. Aliquam Hendrerit
+				Sollicitudin Purus, Quis Rutrum Mi Accumsan Nec. Quisque Bibendum Orci Ac Nibh Facilisis, At Malesuada Orci Congue. Nullam Tempus Sollicitudin
+				Cursus.
+			</p>
+			<p className="p-2">123</p>
 		</div>
 	);
 }

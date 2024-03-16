@@ -1,7 +1,7 @@
 "use client";
 import { Navigation, Pagination, Scrollbar, Autoplay, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Check, PlayCircle, Star, Heart, Share2, Printer } from "react-feather";
+import { IconCheck, IconPlayerPlay, IconStarFilled, IconStarHalfFilled, IconStar, IconHeart, IconShare, IconPrinter } from "@tabler/icons-react";
 import Link from "next/link";
 import FeaturedSide from "@/components/featuredside";
 import ViewedSide from "@/components/viewedside";
@@ -12,29 +12,29 @@ export default function () {
 			<div className="container mb-4">
 				<div className="flex justify-between items-center mb-4">
 					<div>
-						<h2 className="font-bold text-2xl text-[#333]">Luxury Family Home</h2>
+						<h2 className="font-bold text-2xl">Luxury Family Home</h2>
 						<div className="text-[#666]">1421 San Pedro St, Los Angeles, CA 900015</div>
 					</div>
 					<div className="text-xl text-[#666]">
 						<span className="text-[#444] font-bold">$13000</span> / mo
 					</div>
 					<div className="flex space-x-4">
-						<Heart size={18} color="#ff5a5f" className="cursor-pointer" />
-						<Share2 size={18} color="#333" className="cursor-pointer" />
-						<Printer size={18} color="#333" className="cursor-pointer" />
+						<IconHeart size={18} color="#ff5a5f" className="cursor-pointer" />
+						<IconShare size={18} color="#333" className="cursor-pointer" />
+						<IconPrinter size={18} color="#333" className="cursor-pointer" />
 					</div>
 				</div>
 				<div className="grid grid-cols-3 gap-4">
 					<div className="col-span-2 rounded-lg overflow-hidden cursor-pointer">
-						<img src="/assets/images/property/fp1.jpg" width="100%" alt="alt" className="object-cover shadow-lg" />
+						<img src="/images/property/fp1.jpg" width="100%" alt="alt" className="object-cover shadow-lg" />
 					</div>
 					<div className="grid grid-cols-2 gap-2">
-						<img src="/assets/images/property/2.jpg" alt="alt" className="object-cover h-full rounded-lg cursor-pointer shadow-lg" />
-						<img src="/assets/images/property/3.jpg" alt="alt" className="object-cover h-full rounded-lg cursor-pointer shadow-lg" />
-						<img src="/assets/images/property/4.jpg" alt="alt" className="object-cover h-full rounded-lg cursor-pointer shadow-lg" />
-						<img src="/assets/images/property/5.jpg" alt="alt" className="object-cover h-full rounded-lg cursor-pointer shadow-lg" />
-						<img src="/assets/images/property/6.jpg" alt="alt" className="object-cover h-full rounded-lg cursor-pointer shadow-lg" />
-						<img src="/assets/images/property/7.jpg" alt="alt" className="object-cover h-full rounded-lg cursor-pointer shadow-lg" />
+						<img src="/images/property/2.jpg" alt="alt" className="object-cover h-full rounded-lg cursor-pointer shadow-lg" />
+						<img src="/images/property/3.jpg" alt="alt" className="object-cover h-full rounded-lg cursor-pointer shadow-lg" />
+						<img src="/images/property/4.jpg" alt="alt" className="object-cover h-full rounded-lg cursor-pointer shadow-lg" />
+						<img src="/images/property/5.jpg" alt="alt" className="object-cover h-full rounded-lg cursor-pointer shadow-lg" />
+						<img src="/images/property/6.jpg" alt="alt" className="object-cover h-full rounded-lg cursor-pointer shadow-lg" />
+						<img src="/images/property/7.jpg" alt="alt" className="object-cover h-full rounded-lg cursor-pointer shadow-lg" />
 					</div>
 				</div>
 			</div>
@@ -48,7 +48,7 @@ export default function () {
 								<div className="bg-gray-100 py-2 px-4 rounded-lg">Baths: 2</div>
 								<div className="bg-gray-100 py-2 px-4 rounded-lg">Sq Ft: 5280</div>
 							</div>
-							<div className="text-xl font-bold text-[#333] mb-6">Description</div>
+							<div className="text-xl font-bold mb-6">Description</div>
 							<div>
 								<p className="mb-4">
 									Evans Tower very high demand corner junior one bedroom plus a large balcony boasting full open NYC views. You need to see
@@ -76,7 +76,7 @@ export default function () {
 						</div>
 
 						<div className="p-6 border-b">
-							<div className="text-xl font-bold text-[#333] mb-6">Property Details</div>
+							<div className="text-xl font-bold mb-6">Property Details</div>
 							<div className="grid grid-cols-3 gap-4">
 								<div>Property ID : HZ27</div>
 								<div>Bedrooms : 8</div>
@@ -92,7 +92,7 @@ export default function () {
 						</div>
 
 						<div className="p-6">
-							<div className="text-xl font-bold text-[#333] mb-6">Additional details</div>
+							<div className="text-xl font-bold mb-6">Additional details</div>
 							<div className="grid grid-cols-3 gap-4">
 								<div>Deposit : 20%</div>
 								<div>Last remodel year : 1987</div>
@@ -105,59 +105,59 @@ export default function () {
 					</div>
 
 					<div className="bg-white p-6 rounded-md shadow-sm border">
-						<div className="text-xl font-bold text-[#333] mb-6">Features</div>
+						<div className="text-xl font-bold mb-6">Features</div>
 						<div className="grid grid-cols-3 gap-4">
 							<div className="flex items-center gap-2">
-								<Check size={16} color="#ff5a5f" /> Air Conditioning
+								<IconCheck size={16} color="#ff5a5f" /> Air Conditioning
 							</div>
 							<div className="flex items-center gap-2">
-								<Check size={16} color="#ff5a5f" /> Lawn
+								<IconCheck size={16} color="#ff5a5f" /> Lawn
 							</div>
 							<div className="flex items-center gap-2">
-								<Check size={16} color="#ff5a5f" /> Swimming Pool
+								<IconCheck size={16} color="#ff5a5f" /> Swimming Pool
 							</div>
 							<div className="flex items-center gap-2">
-								<Check size={16} color="#ff5a5f" /> Barbeque
+								<IconCheck size={16} color="#ff5a5f" /> Barbeque
 							</div>
 							<div className="flex items-center gap-2">
-								<Check size={16} color="#ff5a5f" /> Microwave
+								<IconCheck size={16} color="#ff5a5f" /> Microwave
 							</div>
 							<div className="flex items-center gap-2">
-								<Check size={16} color="#ff5a5f" /> TV Cable
+								<IconCheck size={16} color="#ff5a5f" /> TV Cable
 							</div>
 							<div className="flex items-center gap-2">
-								<Check size={16} color="#ff5a5f" /> Dryer
+								<IconCheck size={16} color="#ff5a5f" /> Dryer
 							</div>
 							<div className="flex items-center gap-2">
-								<Check size={16} color="#ff5a5f" /> Outdoor Shower
+								<IconCheck size={16} color="#ff5a5f" /> Outdoor Shower
 							</div>
 							<div className="flex items-center gap-2">
-								<Check size={16} color="#ff5a5f" /> Washer
+								<IconCheck size={16} color="#ff5a5f" /> Washer
 							</div>
 							<div className="flex items-center gap-2">
-								<Check size={16} color="#ff5a5f" /> Gym
+								<IconCheck size={16} color="#ff5a5f" /> Gym
 							</div>
 							<div className="flex items-center gap-2">
-								<Check size={16} color="#ff5a5f" /> Refrigerator
+								<IconCheck size={16} color="#ff5a5f" /> Refrigerator
 							</div>
 							<div className="flex items-center gap-2">
-								<Check size={16} color="#ff5a5f" /> WiFi
+								<IconCheck size={16} color="#ff5a5f" /> WiFi
 							</div>
 							<div className="flex items-center gap-2">
-								<Check size={16} color="#ff5a5f" /> Laundry
+								<IconCheck size={16} color="#ff5a5f" /> Laundry
 							</div>
 							<div className="flex items-center gap-2">
-								<Check size={16} color="#ff5a5f" /> Sauna
+								<IconCheck size={16} color="#ff5a5f" /> Sauna
 							</div>
 							<div className="flex items-center gap-2">
-								<Check size={16} color="#ff5a5f" /> Window Coverings
+								<IconCheck size={16} color="#ff5a5f" /> Window Coverings
 							</div>
 						</div>
 					</div>
 
 					<div className="bg-white p-6 rounded-md shadow-sm border">
 						<div className="flex justify-between mb-6">
-							<div className="text-xl font-bold text-[#333]">Location</div>
+							<div className="text-xl font-bold">Location</div>
 							<div>1421 San Pedro St, Los Angeles, CA 90015</div>
 						</div>
 						<iframe
@@ -168,37 +168,37 @@ export default function () {
 					</div>
 
 					<div className="bg-white p-6 rounded-md shadow-sm border">
-						<div className="text-xl font-bold text-[#333] mb-6">Property Video</div>
+						<div className="text-xl font-bold mb-6">Property Video</div>
 						<div className="relative cursor-pointer">
-							<img src="/assets/images/property/fp1.jpg" alt="video" className="rounded-lg" />
-							<PlayCircle className="absolute top-1/2 left-1/2 z-10 -translate-x-1/2 -translate-y-1/2" color="#fff" size={64} />
+							<img src="/images/property/fp1.jpg" alt="video" className="rounded-lg" />
+							<IconPlayerPlay className="absolute top-1/2 left-1/2 z-10 -translate-x-1/2 -translate-y-1/2" color="#fff" size={64} />
 						</div>
 					</div>
 
 					<div className="bg-white rounded-md shadow-sm border">
 						<div className="flex gap-1 p-6 items-center">
-							<p className="text-xl font-bold text-[#333] pr-6">896 Reviews</p>
-							<Star color="#ff5a5f" fill="#ff5a5f" size={18} />
-							<Star color="#ff5a5f" fill="#ff5a5f" size={18} />
-							<Star color="#ff5a5f" fill="#ff5a5f" size={18} />
-							<Star color="#ff5a5f" size={18} />
-							<Star color="#ff5a5f" size={18} />
+							<p className="text-xl font-bold pr-6">896 Reviews</p>
+							<IconStarFilled color="#ff5a5f" size={18} />
+							<IconStarFilled color="#ff5a5f" size={18} />
+							<IconStarFilled color="#ff5a5f" size={18} />
+							<IconStarFilled color="#ff5a5f" size={18} />
+							<IconStarHalfFilled color="#ff5a5f" size={18} />
 							<p className="text-sm text-[#666]">(4.5 out of 5)</p>
 						</div>
 
 						<div className="px-6 space-y-6 pb-6 border-b">
 							<div className="flex gap-4">
 								<div className="basis-20 shrink-0">
-									<img src="/assets/images/property/user.png" alt="user" className="rounded-full" />
+									<img src="/images/property/user.png" alt="user" className="rounded-full" />
 								</div>
 								<div>
 									<div className="flex items-center">
-										<p className="font-bold text-[#333] pr-4">Samul Williams</p>
-										<Star color="#ff5a5f" fill="#ff5a5f" size={16} />
-										<Star color="#ff5a5f" fill="#ff5a5f" size={16} />
-										<Star color="#ff5a5f" fill="#ff5a5f" size={16} />
-										<Star color="#ff5a5f" fill="#ff5a5f" size={16} />
-										<Star color="#ff5a5f" size={16} />
+										<p className="font-bold pr-4">Samul Williams</p>
+										<IconStarFilled color="#ff5a5f" size={16} />
+										<IconStarFilled color="#ff5a5f" size={16} />
+										<IconStarFilled color="#ff5a5f" size={16} />
+										<IconStarHalfFilled color="#ff5a5f" size={16} />
+										<IconStar color="#ff5a5f" size={16} />
 									</div>
 									<p className="text-[#666]">
 										Beautiful home, very picturesque and close to everything in jtree! A little warm for a hot weekend, but would love to
@@ -209,16 +209,16 @@ export default function () {
 
 							<div className="flex gap-4">
 								<div className="basis-20 shrink-0">
-									<img src="/assets/images/property/user.png" alt="user" className="rounded-full" />
+									<img src="/images/property/user.png" alt="user" className="rounded-full" />
 								</div>
 								<div>
 									<div className="flex items-center">
-										<p className="font-bold text-[#333] pr-4">Samul Williams</p>
-										<Star color="#ff5a5f" fill="#ff5a5f" size={16} />
-										<Star color="#ff5a5f" fill="#ff5a5f" size={16} />
-										<Star color="#ff5a5f" fill="#ff5a5f" size={16} />
-										<Star color="#ff5a5f" fill="#ff5a5f" size={16} />
-										<Star color="#ff5a5f" size={16} />
+										<p className="font-bold pr-4">Samul Williams</p>
+										<IconStarFilled color="#ff5a5f" size={16} />
+										<IconStarFilled color="#ff5a5f" size={16} />
+										<IconStarFilled color="#ff5a5f" size={16} />
+										<IconStarHalfFilled color="#ff5a5f" size={16} />
+										<IconStar color="#ff5a5f" size={16} />
 									</div>
 									<p className="text-[#666]">
 										Beautiful home, very picturesque and close to everything in jtree! A little warm for a hot weekend, but would love to
@@ -232,11 +232,11 @@ export default function () {
 							<div className="text-md font-bold text-[#666]">Write a Review</div>
 							<div className="flex items-center gap-6">
 								<div className="flex gap-1">
-									<Star color="#ff5a5f" fill="#ff5a5f" size={16} />
-									<Star color="#ff5a5f" fill="#ff5a5f" size={16} />
-									<Star color="#ff5a5f" fill="#ff5a5f" size={16} />
-									<Star color="#ff5a5f" fill="#ff5a5f" size={16} />
-									<Star color="#ff5a5f" size={16} />
+									<IconStarFilled color="#ff5a5f" size={16} />
+									<IconStarFilled color="#ff5a5f" size={16} />
+									<IconStarFilled color="#ff5a5f" size={16} />
+									<IconStarHalfFilled color="#ff5a5f" size={16} />
+									<IconStar color="#ff5a5f" size={16} />
 								</div>
 								<p className="text-sm">Your Rating & Review</p>
 							</div>
@@ -250,13 +250,13 @@ export default function () {
 				</div>
 				<div className="hidden md:block space-y-6">
 					<div className="bg-white p-6 rounded-md shadow-sm border">
-						<h2 className="text-lg font-bold text-[#333] mb-3">Listed By</h2>
+						<h2 className="text-lg font-bold mb-3">Listed By</h2>
 						<div className="flex gap-4">
 							<div className="w-24">
-								<img src="/assets/images/property/user.png" alt="user" className="rounded-full" />
+								<img src="/images/property/user.png" alt="user" className="rounded-full" />
 							</div>
 							<div>
-								<h2 className="font-bold text-[#333]">Samul Williams</h2>
+								<h2 className="font-bold">Samul Williams</h2>
 								<p className="text-[#666]">(123)456-7890</p>
 								<p className="text-[#666]">info@findhouse.com</p>
 								<p className="text-[#ff5a5f] text-sm py-2">View My Listing</p>
@@ -265,7 +265,7 @@ export default function () {
 					</div>
 
 					<div className="bg-white p-6 rounded-md shadow-sm border">
-						<h2 className="text-lg font-bold text-[#333] mb-3">Featured Properties</h2>
+						<h2 className="text-lg font-bold mb-3">Featured Properties</h2>
 						<Swiper
 							modules={[Navigation, Pagination, Scrollbar, Autoplay, A11y]}
 							spaceBetween={10}
@@ -275,28 +275,28 @@ export default function () {
 							loop
 						>
 							<SwiperSlide>
-								<FeaturedSide thumb="/assets/images/features/thumb1.jpg" type="Aprtment" price={1500} />
+								<FeaturedSide thumb="/images/featureds/thumb1.jpg" type="Aprtment" price={1500} />
 							</SwiperSlide>
 							<SwiperSlide>
-								<FeaturedSide thumb="/assets/images/features/thumb2.jpg" type="Bungalow" price={1800} />
+								<FeaturedSide thumb="/images/featureds/thumb2.jpg" type="Bungalow" price={1800} />
 							</SwiperSlide>
 							<SwiperSlide>
-								<FeaturedSide thumb="/assets/images/features/thumb3.jpg" type="Bungalow" price={2700} />
+								<FeaturedSide thumb="/images/featureds/thumb3.jpg" type="Bungalow" price={2700} />
 							</SwiperSlide>
 							<SwiperSlide>
-								<FeaturedSide thumb="/assets/images/features/thumb1.jpg" type="Aprtment" price={1600} />
+								<FeaturedSide thumb="/images/featureds/thumb1.jpg" type="Aprtment" price={1600} />
 							</SwiperSlide>
 							<SwiperSlide>
-								<FeaturedSide thumb="/assets/images/features/thumb2.jpg" type="Bungalow" price={1200} />
+								<FeaturedSide thumb="/images/featureds/thumb2.jpg" type="Bungalow" price={1200} />
 							</SwiperSlide>
 							<SwiperSlide>
-								<FeaturedSide thumb="/assets/images/features/thumb3.jpg" type="Bungalow" price={3200} />
+								<FeaturedSide thumb="/images/featureds/thumb3.jpg" type="Bungalow" price={3200} />
 							</SwiperSlide>
 						</Swiper>
 					</div>
 
 					<div className="bg-white p-6 rounded-md shadow-sm border">
-						<h2 className="text-lg font-bold text-[#333] mb-3">Categories Property</h2>
+						<h2 className="text-lg font-bold mb-3">Categories Property</h2>
 						<div>
 							<div className="flex justify-between items-center">
 								<Link href="#" className="text-blue-400 text-sm py-1">
@@ -332,11 +332,11 @@ export default function () {
 					</div>
 
 					<div className="bg-white p-6 rounded-md shadow-sm border">
-						<h2 className="text-lg font-bold text-[#333] mb-3">Recently Viewed</h2>
+						<h2 className="text-lg font-bold mb-3">Recently Viewed</h2>
 						<div className="space-y-4">
-							<ViewedSide thumb="/assets/images/features/thumb1.jpg" beds={2} baths={3} type="Bungalow" price={3200} />
-							<ViewedSide thumb="/assets/images/features/thumb2.jpg" beds={2} baths={3} type="Bungalow" price={3200} />
-							<ViewedSide thumb="/assets/images/features/thumb3.jpg" beds={2} baths={3} type="Bungalow" price={3200} />
+							<ViewedSide thumb="/images/featureds/thumb1.jpg" beds={2} baths={3} type="Bungalow" price={3200} />
+							<ViewedSide thumb="/images/featureds/thumb2.jpg" beds={2} baths={3} type="Bungalow" price={3200} />
+							<ViewedSide thumb="/images/featureds/thumb3.jpg" beds={2} baths={3} type="Bungalow" price={3200} />
 						</div>
 					</div>
 				</div>

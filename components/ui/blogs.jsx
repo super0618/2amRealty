@@ -1,13 +1,13 @@
 "use client";
 import { Navigation, Pagination, Scrollbar, Autoplay, A11y } from "swiper/modules";
-import Blog from "@/components/blog";
+import BlogSlide from "@/components/blog-slide";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function () {
 	return (
 		<div className="bg-gray-50">
 			<div className="container py-16">
-				<div className="text-4xl font-bold text-[#333] mb-2 text-center">Blogs & Tips</div>
+				<div className="text-4xl font-bold mb-2 text-center">Blogs & Tips</div>
 				<div className="text-lg text-[#666] mb-12 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 				<Swiper
 					modules={[Navigation, Pagination, Scrollbar, Autoplay, A11y]}
@@ -23,54 +23,54 @@ export default function () {
 					loop
 				>
 					<SwiperSlide>
-						<Blog
-							thumb="/assets/images/blogs/thumb1.jpg"
-							user="/assets/images/blogs/user1.png"
+						<BlogSlide
+							thumb="/images/blogs/thumb1.jpg"
+							user="/images/blogs/user1.png"
 							username="Ali Tufan"
 							type="Business"
 							title="Luxury Family Home"
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<Blog
-							thumb="/assets/images/blogs/thumb2.jpg"
-							user="/assets/images/blogs/user2.png"
+						<BlogSlide
+							thumb="/images/blogs/thumb2.jpg"
+							user="/images/blogs/user2.png"
 							username="Ali Tufan"
 							type="Construction"
 							title="Renovated Apartment"
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<Blog
-							thumb="/assets/images/blogs/thumb3.jpg"
-							user="/assets/images/blogs/user3.png"
+						<BlogSlide
+							thumb="/images/blogs/thumb3.jpg"
+							user="/images/blogs/user3.png"
 							username="Ali Tufan"
 							type="Business"
 							title="Single Family Home"
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<Blog
-							thumb="/assets/images/blogs/thumb1.jpg"
-							user="/assets/images/blogs/user1.png"
+						<BlogSlide
+							thumb="/images/blogs/thumb1.jpg"
+							user="/images/blogs/user1.png"
 							username="Ali Tufan"
 							type="Business"
 							title="Luxury Family Home"
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<Blog
-							thumb="/assets/images/blogs/thumb2.jpg"
-							user="/assets/images/blogs/user2.png"
+						<BlogSlide
+							thumb="/images/blogs/thumb2.jpg"
+							user="/images/blogs/user2.png"
 							username="Ali Tufan"
 							type="Construction"
 							title="Renovated Apartment"
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<Blog
-							thumb="/assets/images/blogs/thumb3.jpg"
-							user="/assets/images/blogs/user3.png"
+						<BlogSlide
+							thumb="/images/blogs/thumb3.jpg"
+							user="/images/blogs/user3.png"
 							username="Ali Tufan"
 							type="Construction"
 							title="Single Family Home"
