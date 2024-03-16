@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram, Dribbble, Linkedin } from "react-feather";
+import { IconBrandFacebookFilled, IconBrandTwitterFilled, IconBrandInstagram, IconBrandPinterest, IconBrandDribbble } from "@tabler/icons-react";
 
 export default function () {
 	return (
@@ -28,11 +28,11 @@ export default function () {
 				<div>
 					<p className="text-white font-bold text-2xl mb-4">Follow Us</p>
 					<div className="flex gap-4 mb-6">
-						<Facebook size={18} color="#8a99b3" fill="#8a99b3" />
-						<Twitter size={18} color="#8a99b3" fill="#8a99b3" />
-						<Instagram size={18} color="#8a99b3" />
-						<Linkedin size={18} color="#8a99b3" />
-						<Dribbble size={18} color="#8a99b3" />
+						<IconBrandFacebookFilled size={18} color="#999" />
+						<IconBrandTwitterFilled size={18} color="#999" />
+						<IconBrandInstagram size={18} color="#999" />
+						<IconBrandPinterest size={18} color="#999" />
+						<IconBrandDribbble size={18} color="#999" />
 					</div>
 					<p className="text-white font-bold text-2xl mb-4">Subscribe</p>
 					<input type="text" className="border border-[#8a99b3] bg-[#24324a] px-4 py-2 w-full max-w-96" placeholder="Enter your email" />

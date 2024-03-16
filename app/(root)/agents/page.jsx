@@ -6,7 +6,7 @@ import FeaturedSide from "@/components/featuredside";
 import ViewedSide from "@/components/viewedside";
 import ReactPaginate from "react-paginate";
 import Agent from "@/components/agent";
-import { ArrowLeft, ArrowRight } from "react-feather";
+import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 
 export default function () {
 	const onPageChange = (e) => {
@@ -16,12 +16,12 @@ export default function () {
 	return (
 		<div className="bg-gray-50 py-12">
 			<div className="container mb-4">
-				<h2 className="text-2xl font-bold text-[#333]">All Agents</h2>
+				<h2 className="text-2xl font-bold">All Agents</h2>
 			</div>
 			<div className="container grid grid-cols-3 gap-6">
 				<div className="hidden md:block space-y-6">
 					<div className="bg-white p-6 rounded-md border shadow-sm">
-						<h2 className="text-lg font-bold text-[#333] mb-4">Find Agent</h2>
+						<h2 className="text-lg font-bold mb-4">Find Agent</h2>
 						<input type="text" className="px-4 py-1 border border-gray-300 rounded-md mb-4 w-full" placeholder="Enter Agent Name" />
 						<input type="text" className="px-4 py-1 border border-gray-300 rounded-md mb-4 w-full" placeholder="All Categories" />
 						<input type="text" className="px-4 py-1 border border-gray-300 rounded-md mb-4 w-full" placeholder="All Cities" />
@@ -29,7 +29,7 @@ export default function () {
 					</div>
 
 					<div className="bg-white p-6 rounded-md shadow-sm border">
-						<h2 className="text-lg font-bold text-[#333] mb-3">Featured Properties</h2>
+						<h2 className="text-lg font-bold mb-3">Featured Properties</h2>
 						<Swiper
 							modules={[Navigation, Pagination, Scrollbar, Autoplay, A11y]}
 							spaceBetween={10}
@@ -38,28 +38,28 @@ export default function () {
 							loop
 						>
 							<SwiperSlide>
-								<FeaturedSide thumb="/assets/images/features/thumb1.jpg" type="Aprtment" price={1500} />
+								<FeaturedSide thumb="/images/featureds/thumb1.jpg" type="Aprtment" price={1500} />
 							</SwiperSlide>
 							<SwiperSlide>
-								<FeaturedSide thumb="/assets/images/features/thumb2.jpg" type="Bungalow" price={1800} />
+								<FeaturedSide thumb="/images/featureds/thumb2.jpg" type="Bungalow" price={1800} />
 							</SwiperSlide>
 							<SwiperSlide>
-								<FeaturedSide thumb="/assets/images/features/thumb3.jpg" type="Bungalow" price={2700} />
+								<FeaturedSide thumb="/images/featureds/thumb3.jpg" type="Bungalow" price={2700} />
 							</SwiperSlide>
 							<SwiperSlide>
-								<FeaturedSide thumb="/assets/images/features/thumb1.jpg" type="Aprtment" price={1600} />
+								<FeaturedSide thumb="/images/featureds/thumb1.jpg" type="Aprtment" price={1600} />
 							</SwiperSlide>
 							<SwiperSlide>
-								<FeaturedSide thumb="/assets/images/features/thumb2.jpg" type="Bungalow" price={1200} />
+								<FeaturedSide thumb="/images/featureds/thumb2.jpg" type="Bungalow" price={1200} />
 							</SwiperSlide>
 							<SwiperSlide>
-								<FeaturedSide thumb="/assets/images/features/thumb3.jpg" type="Bungalow" price={3200} />
+								<FeaturedSide thumb="/images/featureds/thumb3.jpg" type="Bungalow" price={3200} />
 							</SwiperSlide>
 						</Swiper>
 					</div>
 
 					<div className="bg-white p-6 rounded-md shadow-sm border">
-						<h2 className="text-lg font-bold text-[#333] mb-3">Categories Property</h2>
+						<h2 className="text-lg font-bold mb-3">Categories Property</h2>
 						<div>
 							<div className="flex justify-between items-center">
 								<Link href="#" className="text-blue-400 text-sm py-1">
@@ -95,11 +95,11 @@ export default function () {
 					</div>
 
 					<div className="bg-white p-6 rounded-md shadow-sm border">
-						<h2 className="text-lg font-bold text-[#333] mb-3">Recently Viewed</h2>
+						<h2 className="text-lg font-bold mb-3">Recently Viewed</h2>
 						<div className="space-y-4">
-							<ViewedSide thumb="/assets/images/features/thumb1.jpg" beds={2} baths={3} type="Bungalow" price={3200} />
-							<ViewedSide thumb="/assets/images/features/thumb2.jpg" beds={2} baths={3} type="Bungalow" price={3200} />
-							<ViewedSide thumb="/assets/images/features/thumb3.jpg" beds={2} baths={3} type="Bungalow" price={3200} />
+							<ViewedSide thumb="/images/featureds/thumb1.jpg" beds={2} baths={3} type="Bungalow" price={3200} />
+							<ViewedSide thumb="/images/featureds/thumb2.jpg" beds={2} baths={3} type="Bungalow" price={3200} />
+							<ViewedSide thumb="/images/featureds/thumb3.jpg" beds={2} baths={3} type="Bungalow" price={3200} />
 						</div>
 					</div>
 				</div>
@@ -119,8 +119,8 @@ export default function () {
 						<Agent />
 						<ReactPaginate
 							pageCount={7}
-							previousLabel={<ArrowLeft size={16} color="#333" />}
-							nextLabel={<ArrowRight size={16} color="#333" />}
+							previousLabel={<IconArrowLeft size={16} color="#333" />}
+							nextLabel={<IconArrowRight size={16} color="#333" />}
 							onPageChange={onPageChange}
 							className="col-span-2 own-pagination space-x-2 text-center"
 						/>

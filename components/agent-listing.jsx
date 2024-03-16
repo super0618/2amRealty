@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MapPin } from "react-feather";
+import { IconMapPin } from "@tabler/icons-react";
 
 export default function ({ thumb, type, title, location, beds, baths, price }) {
 	return (
@@ -11,15 +11,15 @@ export default function ({ thumb, type, title, location, beds, baths, price }) {
 				<div className="flex justify-between items-center">
 					<div className="px-4 py-1 rounded-sm bg-[#ff5a5f] text-white text-sm inline-block mb-1">Sale</div>
 					<div className="p-3 text-[#666]">
-						<span className="font-bold text-[#333]">${price}</span> / mo
+						<span className="font-bold">${price}</span> / mo
 					</div>
 				</div>
 				<div className="text-[#ff5a5f] mb-1 text-md">{type}</div>
-				<Link href="/property/soieeh" className="text-[#333] font-bold cursor-pointer mb-2 hover:text-[#ff5a5f]">
+				<Link href="/property/soieeh" className="font-bold cursor-pointer mb-2 hover:text-[#ff5a5f]">
 					{title}
 				</Link>
-				<div className="flex gap-1 mb-2">
-					<MapPin size={14} />
+				<div className="flex mb-2">
+					<IconMapPin size={20} style={{ padding: 2 }} />
 					<p className="text-sm">{location}</p>
 				</div>
 				<div className="grid grid-cols-3 pb-2">

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MapPin } from "react-feather";
+import { IconMapPin } from "@tabler/icons-react";
 
 export default function ({ thumb, user, username, type, title, location, beds, baths, price }) {
 	return (
@@ -14,11 +14,11 @@ export default function ({ thumb, user, username, type, title, location, beds, b
 					<div className="absolute bottom-4 left-4 text-white z-50">${price} / mo</div>
 				</div>
 				<div className="text-[#ff5a5f] px-2 mb-1 text-md">{type}</div>
-				<Link href="/property/z8392" className="text-[#333] px-2 font-bold mb-2 hover:text-[#ff5a5f]">
+				<Link href="/property/z8392" className="px-2 font-bold mb-2 hover:text-[#ff5a5f]">
 					{title}
 				</Link>
-				<div className="px-2 flex items-center gap-1 mb-2">
-					<MapPin size={14} />
+				<div className="px-2 flex items-center mb-2">
+					<IconMapPin size={20} style={{ padding: 2 }} />
 					<p className="text-sm">{location}</p>
 				</div>
 				<div className="px-2 grid grid-cols-3">

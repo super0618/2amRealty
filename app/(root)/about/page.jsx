@@ -9,7 +9,7 @@ import AgentRegisterForm from "@/components/ui/agent-register-form";
 export default function () {
 	return (
 		<>
-			<Landing bgImage="/assets/images/about/bg.jpg" height={400} content={<div className="text-center z-0 text-6xl font-bold mb-4">About Us</div>} />
+			<Landing bgImage="/images/about/bg.jpg" height={320} content={<div className="text-center z-0 text-5xl font-bold mb-4">About Us</div>} />
 			<Mission />
 			<Services />
 			<Teams />

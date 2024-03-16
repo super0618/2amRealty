@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { Facebook, Twitter, Instagram, Dribbble, Linkedin } from "react-feather";
+import { IconBrandFacebookFilled, IconBrandTwitterFilled, IconBrandInstagram, IconBrandPinterest, IconBrandDribbble } from "@tabler/icons-react";
 
 export default function () {
 	return (
 		<div className="rounded-md bg-white shadow-md max-w-[400px] mx-auto">
 			<div className="p-4 border-b">
-				<img src="/assets/images/agents/1.jpg" alt="agent1" className="rounded-lmd mb-4" />
+				<img src="/images/agents/1.jpg" alt="agent1" className="rounded-lmd mb-4" />
 				<Link href="/agent/sfsef" className="font-bold block text-[#666x] cursor-pointer mb-1 hover:text-[#ff5a5f]">
 					Renovated Apart
 				</Link>
@@ -17,11 +17,11 @@ export default function () {
 			</div>
 			<div className="flex justify-between items-center p-4 pt-2">
 				<div className="flex gap-1">
-					<Facebook size={14} color="#999" fill="#999" />
-					<Twitter size={14} color="#999" fill="#999" />
-					<Instagram size={14} color="#999" />
-					<Dribbble size={14} color="#999" />
-					<Linkedin size={14} color="#999" />
+					<IconBrandFacebookFilled size={14} color="#999" />
+					<IconBrandTwitterFilled size={14} color="#999" />
+					<IconBrandInstagram size={14} color="#999" />
+					<IconBrandPinterest size={14} color="#999" />
+					<IconBrandDribbble size={14} color="#999" />
 				</div>
 				<Link href="/agent/sfsef" className="text-sm text-[#ff5a5f]">
 					View Listing

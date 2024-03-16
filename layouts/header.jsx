@@ -8,19 +8,19 @@ export default function () {
 	const headerRef = useRef(null);
 	const logoRef = useRef(null);
 	const pathname = usePathname();
-	const expandUrls = ["/", "/about", "/contact"];
+	const expandUrls = ["/", "/about", "/contact", "/compare", "/faq", "/plan", "/service", "/terms"];
 
 	const setHeaderStyle = () => {
 		if (headerRef && logoRef) {
-			if (window.scrollY > 100) {
+			if (window.scrollY > 80) {
 				headerRef.current.style.backgroundColor = "#fff";
-				headerRef.current.classList.add("shadow-lg");
+				headerRef.current.classList.add("shadow-sm");
 				headerRef.current.style.color = "#666";
 				logoRef.current.style.color = "#e94c51";
 			} else {
 				headerRef.current.style.backgroundColor = "#fff0";
 				headerRef.current.style.color = "#fff";
-				headerRef.current.classList.remove("shadow-lg");
+				headerRef.current.classList.remove("shadow-sm");
 				logoRef.current.style.color = "#fff";
 			}
 		}
@@ -34,7 +34,7 @@ export default function () {
 			setHeaderStyle();
 		} else {
 			headerRef.current.style.backgroundColor = "#fff";
-			headerRef.current.classList.add("shadow-lg");
+			headerRef.current.classList.add("shadow-sm");
 			headerRef.current.style.color = "#666";
 			logoRef.current.style.color = "#e94c51";
 		}
@@ -54,13 +54,13 @@ export default function () {
 						label="Buy"
 						dropdown={
 							<div className="bg-white py-2 text-black border border-gray-100 flex flex-col">
-								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
+								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
 									Buy With Us
 								</Link>
-								<Link href="/properties" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
+								<Link href="/properties" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
 									All Listings
 								</Link>
-								<Link href="/featured" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
+								<Link href="/featured" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
 									Featured Listings
 								</Link>
 							</div>
@@ -70,13 +70,13 @@ export default function () {
 						label="Sell"
 						dropdown={
 							<div className="bg-white py-2 text-black border border-gray-100 flex flex-col">
-								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
+								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
 									Sell My Home
 								</Link>
-								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
+								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
 									Market Snapshot
 								</Link>
-								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
+								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
 									Home Valuation
 								</Link>
 							</div>
@@ -86,13 +86,13 @@ export default function () {
 						label="About"
 						dropdown={
 							<div className="bg-white py-2 text-black border border-gray-100 flex flex-col">
-								<Link href="/about" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
+								<Link href="/about" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
 									About Us
 								</Link>
-								<Link href="/contact" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
+								<Link href="/contact" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
 									Contact Us
 								</Link>
-								<Link href="/partner" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#333] duration-200">
+								<Link href="/partner" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
 									Partner With Us
 								</Link>
 							</div>

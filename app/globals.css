@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+	color: #333;
+}
+
 input:focus {
 	outline: 4px solid #a2d2ff99;
 }
