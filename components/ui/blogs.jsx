@@ -29,6 +29,7 @@ export default function () {
 							username="Ali Tufan"
 							type="Business"
 							title="Luxury Family Home"
+							description="Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Duis Mol"
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
@@ -38,6 +39,7 @@ export default function () {
 							username="Ali Tufan"
 							type="Construction"
 							title="Renovated Apartment"
+							description="Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Duis Mol"
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
@@ -47,6 +49,7 @@ export default function () {
 							username="Ali Tufan"
 							type="Business"
 							title="Single Family Home"
+							description="Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Duis Mol"
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
@@ -56,6 +59,7 @@ export default function () {
 							username="Ali Tufan"
 							type="Business"
 							title="Luxury Family Home"
+							description="Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Duis Mol"
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
@@ -65,6 +69,7 @@ export default function () {
 							username="Ali Tufan"
 							type="Construction"
 							title="Renovated Apartment"
+							description="Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Duis Mol"
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
@@ -74,6 +79,7 @@ export default function () {
 							username="Ali Tufan"
 							type="Construction"
 							title="Single Family Home"
+							description="Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Duis Mol"
 						/>
 					</SwiperSlide>
 				</Swiper>

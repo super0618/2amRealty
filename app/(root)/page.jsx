@@ -27,7 +27,10 @@ export default function Home() {
 						<div className="max-w-[960px] relative p-8 pt-12 bg-white rounded-lg w-11/12 space-y-6 before:content-[''] before:absolute before:-top-3 before:-left-3 before:-right-3 before:-bottom-3 before:bg-[#fff2] before:rounded-lg before:-z-10 mx-auto">
 							<div className="flex">
 								<input type="text" className="grow border py-2 px-4 border-gray-300" placeholder="City, Country, Subdivision, etc" />
-								<div className="basis-32 bg-[#ff5a5f] grid place-items-center text-white font-bold text-lg cursor-pointer" onClick={onSearch}>
+								<div
+									className="basis-32 bg-[#ff5a5f] grid place-items-center text-white font-bold text-lg cursor-pointer hover:bg-[#e23e43]"
+									onClick={onSearch}
+								>
 									Search
 								</div>
 							</div>

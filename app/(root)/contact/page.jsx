@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Landing from "@/components/landing";
 import { IconBrandFacebookFilled, IconBrandTwitterFilled, IconBrandInstagram, IconBrandPinterest, IconBrandDribbble } from "@tabler/icons-react";
 import AgentRegisterForm from "@/components/ui/agent-register-form";
@@ -42,21 +43,21 @@ export default function () {
 						<p className="mb-6">2am-realty.com</p>
 						<h2 className="font-bold mb-2">Follow Us</h2>
 						<div className="flex gap-2 mb-6">
-							<div className="grid w-8 h-8 place-items-center bg-gray-100 rounded-md cursor-pointer">
+							<Link href="#" className="grid w-8 h-8 place-items-center bg-gray-100 rounded-md hover:bg-gray-200">
 								<IconBrandFacebookFilled size={16} />
-							</div>
-							<div className="grid w-8 h-8 place-items-center bg-gray-100 rounded-md cursor-pointer">
+							</Link>
+							<Link href="#" className="grid w-8 h-8 place-items-center bg-gray-100 rounded-md hover:bg-gray-200">
 								<IconBrandTwitterFilled size={16} />
-							</div>
-							<div className="grid w-8 h-8 place-items-center bg-gray-100 rounded-md cursor-pointer">
+							</Link>
+							<Link href="#" className="grid w-8 h-8 place-items-center bg-gray-100 rounded-md hover:bg-gray-200">
 								<IconBrandInstagram size={16} />
-							</div>
-							<div className="grid w-8 h-8 place-items-center bg-gray-100 rounded-md cursor-pointer">
+							</Link>
+							<Link href="#" className="grid w-8 h-8 place-items-center bg-gray-100 rounded-md hover:bg-gray-200">
 								<IconBrandPinterest size={16} />
-							</div>
-							<div className="grid w-8 h-8 place-items-center bg-gray-100 rounded-md cursor-pointer">
+							</Link>
+							<Link href="#" className="grid w-8 h-8 place-items-center bg-gray-100 rounded-md hover:bg-gray-200">
 								<IconBrandDribbble size={16} />
-							</div>
+							</Link>
 						</div>
 					</div>
 				</div>

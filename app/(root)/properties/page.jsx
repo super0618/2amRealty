@@ -43,7 +43,7 @@ export default function () {
 							<input type="text" className="px-4 py-1 border border-gray-300 rounded-md mb-4" placeholder="Min Price" />
 							<input type="text" className="px-4 py-1 border border-gray-300 rounded-md mb-4" placeholder="Max Price" />
 						</div>
-						<div className="bg-[#ff5a5f] py-2 text-center text-white rounded-lg cursor-pointer hover:bg-[#e94c51]">Clear Filters</div>
+						<div className="bg-[#ff5a5f] py-2 text-center text-white rounded-lg cursor-pointer hover:bg-[#e23e43]">Clear Filters</div>
 					</div>
 
 					<div className="bg-white p-6 rounded-md shadow-sm border">
@@ -53,6 +53,7 @@ export default function () {
 							spaceBetween={10}
 							centeredSlides
 							pagination={{ clickable: true }}
+							style={{ paddingBottom: 10 }}
 							autoplay
 							loop
 						>
@@ -81,31 +82,31 @@ export default function () {
 						<h2 className="text-lg font-bold mb-3">Categories Property</h2>
 						<div>
 							<div className="flex justify-between items-center">
-								<Link href="#" className="text-blue-400 text-sm py-1">
+								<Link href="#" className="text-blue-400 text-sm py-1 hover:text-blue-600">
 									Apartment
 								</Link>
 								<div className="text-xs">6 properties</div>
 							</div>
 							<div className="flex justify-between items-center">
-								<Link href="#" className="text-blue-400 text-sm py-1">
+								<Link href="#" className="text-blue-400 text-sm py-1 hover:text-blue-600">
 									Condo
 								</Link>
 								<div className="text-xs">9 properties</div>
 							</div>
 							<div className="flex justify-between items-center">
-								<Link href="#" className="text-blue-400 text-sm py-1">
+								<Link href="#" className="text-blue-400 text-sm py-1 hover:text-blue-600">
 									Family House
 								</Link>
 								<div className="text-xs">12 properties</div>
 							</div>
 							<div className="flex justify-between items-center">
-								<Link href="#" className="text-blue-400 text-sm py-1">
+								<Link href="#" className="text-blue-400 text-sm py-1 hover:text-blue-600">
 									Modern Villa
 								</Link>
 								<div className="text-xs">3 properties</div>
 							</div>
 							<div className="flex justify-between items-center">
-								<Link href="#" className="text-blue-400 text-sm py-1">
+								<Link href="#" className="text-blue-400 text-sm py-1 hover:text-blue-600">
 									Town House
 								</Link>
 								<div className="text-xs">12 properties</div>
@@ -116,9 +117,9 @@ export default function () {
 					<div className="bg-white p-6 rounded-md shadow-sm border">
 						<h2 className="text-lg font-bold mb-3">Recently Viewed</h2>
 						<div className="space-y-4">
-							<ViewedSide thumb="/images/featureds/thumb1.jpg" beds={2} baths={3} type="Bungalow" price={3200} />
-							<ViewedSide thumb="/images/featureds/thumb2.jpg" beds={2} baths={3} type="Bungalow" price={3200} />
-							<ViewedSide thumb="/images/featureds/thumb3.jpg" beds={2} baths={3} type="Bungalow" price={3200} />
+							<ViewedSide thumb="/images/featureds/thumb1.jpg" type="Bungalow" name="Single Family Home" price={3200} />
+							<ViewedSide thumb="/images/featureds/thumb2.jpg" type="Apartment" name="Renovated Apartment" price={2100} />
+							<ViewedSide thumb="/images/featureds/thumb3.jpg" type="Bungalow" name="Luxury Family Home" price={1700} />
 						</div>
 					</div>
 				</div>

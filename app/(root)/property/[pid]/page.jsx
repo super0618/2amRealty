@@ -1,7 +1,7 @@
 "use client";
 import { Navigation, Pagination, Scrollbar, Autoplay, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { IconCheck, IconPlayerPlay, IconStarFilled, IconStarHalfFilled, IconStar, IconHeart, IconShare, IconPrinter } from "@tabler/icons-react";
+import { IconCheck, IconPlayerPlayFilled, IconStarFilled, IconStarHalfFilled, IconStar, IconHeart, IconShare, IconPrinter } from "@tabler/icons-react";
 import Link from "next/link";
 import FeaturedSide from "@/components/featuredside";
 import ViewedSide from "@/components/viewedside";
@@ -77,7 +77,7 @@ export default function () {
 
 						<div className="p-6 border-b">
 							<div className="text-xl font-bold mb-6">Property Details</div>
-							<div className="grid grid-cols-3 gap-4">
+							<div className="grid grid-cols-3 gap-4 text-sm">
 								<div>Property ID : HZ27</div>
 								<div>Bedrooms : 8</div>
 								<div>Property Type : Apartment</div>
@@ -93,7 +93,7 @@ export default function () {
 
 						<div className="p-6">
 							<div className="text-xl font-bold mb-6">Additional details</div>
-							<div className="grid grid-cols-3 gap-4">
+							<div className="grid grid-cols-3 gap-4 text-sm">
 								<div>Deposit : 20%</div>
 								<div>Last remodel year : 1987</div>
 								<div>Pool Size : 300 Sqft</div>
@@ -171,7 +171,7 @@ export default function () {
 						<div className="text-xl font-bold mb-6">Property Video</div>
 						<div className="relative cursor-pointer">
 							<img src="/images/property/fp1.jpg" alt="video" className="rounded-lg" />
-							<IconPlayerPlay className="absolute top-1/2 left-1/2 z-10 -translate-x-1/2 -translate-y-1/2" color="#fff" size={64} />
+							<IconPlayerPlayFilled className="absolute top-1/2 left-1/2 z-10 -translate-x-1/2 -translate-y-1/2" color="#fff" size={64} />
 						</div>
 					</div>
 
@@ -193,7 +193,9 @@ export default function () {
 								</div>
 								<div>
 									<div className="flex items-center">
-										<p className="font-bold pr-4">Samul Williams</p>
+										<Link href="/agent/detail" className="font-bold pr-4 hover:text-[#ff5a5f]">
+											Samul Williams
+										</Link>
 										<IconStarFilled color="#ff5a5f" size={16} />
 										<IconStarFilled color="#ff5a5f" size={16} />
 										<IconStarFilled color="#ff5a5f" size={16} />
@@ -213,7 +215,9 @@ export default function () {
 								</div>
 								<div>
 									<div className="flex items-center">
-										<p className="font-bold pr-4">Samul Williams</p>
+										<Link href="/agent/detail" className="font-bold pr-4 hover:text-[#ff5a5f]">
+											Samul Williams
+										</Link>
 										<IconStarFilled color="#ff5a5f" size={16} />
 										<IconStarFilled color="#ff5a5f" size={16} />
 										<IconStarFilled color="#ff5a5f" size={16} />
@@ -240,8 +244,8 @@ export default function () {
 								</div>
 								<p className="text-sm">Your Rating & Review</p>
 							</div>
-							<input type="text" className="border rounded-lg w-full py-1 px-4" placeholder="Review Title" />
-							<textarea className="border rounded-lg py-3 px-4 w-full h-36" placeholder="Your Review"></textarea>
+							<input type="text" className="border rounded-md w-full py-1 px-4" placeholder="Review Title" />
+							<textarea className="border rounded-md py-3 px-4 w-full h-36" placeholder="Your Review"></textarea>
 							<div className="bg-[#ff5a5f] py-3 px-8 text-center inline-block text-white rounded-lg cursor-pointer hover:bg-[#e94c51]">
 								Submit Review
 							</div>
@@ -271,6 +275,7 @@ export default function () {
 							spaceBetween={10}
 							centeredSlides
 							pagination={{ clickable: true }}
+							style={{ paddingBottom: 10 }}
 							autoplay
 							loop
 						>
@@ -299,31 +304,31 @@ export default function () {
 						<h2 className="text-lg font-bold mb-3">Categories Property</h2>
 						<div>
 							<div className="flex justify-between items-center">
-								<Link href="#" className="text-blue-400 text-sm py-1">
+								<Link href="#" className="text-blue-400 text-sm py-1 hover:text-blue-600">
 									Apartment
 								</Link>
 								<div className="text-xs">6 properties</div>
 							</div>
 							<div className="flex justify-between items-center">
-								<Link href="#" className="text-blue-400 text-sm py-1">
+								<Link href="#" className="text-blue-400 text-sm py-1 hover:text-blue-600">
 									Condo
 								</Link>
 								<div className="text-xs">9 properties</div>
 							</div>
 							<div className="flex justify-between items-center py-1">
-								<Link href="#" className="text-blue-400 text-sm py-1">
+								<Link href="#" className="text-blue-400 text-sm py-1 hover:text-blue-600">
 									Family House
 								</Link>
 								<div className="text-xs">12 properties</div>
 							</div>
 							<div className="flex justify-between items-center py-1">
-								<Link href="#" className="text-blue-400 text-sm py-1">
+								<Link href="#" className="text-blue-400 text-sm py-1 hover:text-blue-600">
 									Modern Villa
 								</Link>
 								<div className="text-xs">3 properties</div>
 							</div>
 							<div className="flex justify-between items-center py-1">
-								<Link href="#" className="text-blue-400 text-sm py-1">
+								<Link href="#" className="text-blue-400 text-sm py-1 hover:text-blue-600">
 									Town House
 								</Link>
 								<div className="text-xs">12 properties</div>

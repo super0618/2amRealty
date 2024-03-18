@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function () {
 	return (
 		<div className="bg-[#ff5a5f]">
@@ -7,7 +9,9 @@ export default function () {
 					<p className="text-xl">We only work with the best companies around the globe</p>
 				</div>
 				<div className="text-center grid place-items-center">
-					<div className="bg-[#ff787c] rounded-lg px-8 py-4 text-xl cursor-pointer">Register Now</div>
+					<Link href="/signup" className="bg-[#ff787c] rounded-lg px-8 py-4 text-xl hover:bg-[#ff7075]">
+						Register Now
+					</Link>
 				</div>
 			</div>
 		</div>
