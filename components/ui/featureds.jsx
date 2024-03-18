@@ -28,7 +28,7 @@ export default function () {
 							user="/images/featureds/user1.png"
 							username="Ali Tufan"
 							type="Aprtment"
-							title="Luxury Family Home"
+							name="Luxury Family Home"
 							location="1421 San Pedro St, Los Angeles"
 							beds={1}
 							baths={1}
@@ -41,7 +41,7 @@ export default function () {
 							user="/images/featureds/user2.png"
 							username="Ali Tufan"
 							type="Bungalow"
-							title="Renovated Apartment"
+							name="Renovated Apartment"
 							location="1421 San Pedro St, Los Angeles"
 							beds={4}
 							baths={5}
@@ -54,7 +54,7 @@ export default function () {
 							user="/images/featureds/user3.png"
 							username="Ali Tufan"
 							type="Bungalow"
-							title="Single Family Home"
+							name="Single Family Home"
 							location="1421 San Pedro St, Los Angeles"
 							beds={3}
 							baths={2}
@@ -67,7 +67,7 @@ export default function () {
 							user="/images/featureds/user1.png"
 							username="Ali Tufan"
 							type="Aprtment"
-							title="Luxury Family Home"
+							name="Luxury Family Home"
 							location="1421 San Pedro St, Los Angeles"
 							beds={1}
 							baths={1}
@@ -80,7 +80,7 @@ export default function () {
 							user="/images/featureds/user2.png"
 							username="Ali Tufan"
 							type="Bungalow"
-							title="Renovated Apartment"
+							name="Renovated Apartment"
 							location="1421 San Pedro St, Los Angeles"
 							beds={4}
 							baths={5}
@@ -93,7 +93,7 @@ export default function () {
 							user="/images/featureds/user3.png"
 							username="Ali Tufan"
 							type="Bungalow"
-							title="Single Family Home"
+							name="Single Family Home"
 							location="1421 San Pedro St, Los Angeles"
 							beds={3}
 							baths={2}

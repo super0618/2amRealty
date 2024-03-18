@@ -51,7 +51,7 @@ export default function () {
 					</div>
 					<div>
 						<div className="w-full max-w-96 mx-auto text-center">
-							<div className="w-full px-4 py-3 rounded-md mb-2 border-[#ff5a5f] bg-[#ff5a5f] border-2 text-white font-bold text-center cursor-pointer duration-200 hover:bg-[#c44448]">
+							<div className="w-full px-4 py-3 rounded-md mb-2 bg-[#ff5a5f] text-white font-bold text-center cursor-pointer duration-200 hover:bg-[#e23e43]">
 								Login
 							</div>
 							<Link href="/signup" className="text-[#8b91dd] hover:text-[#ff5a5f]">

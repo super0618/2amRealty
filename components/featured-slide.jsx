@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { IconMapPin } from "@tabler/icons-react";
 
-export default function ({ thumb, user, username, type, title, location, beds, baths, price }) {
+export default function ({ thumb, user, username, type, name, location, beds, baths, price }) {
 	return (
 		<div className="rounded-md bg-white shadow-lg max-w-[400px] mx-auto">
 			<div className="p-4 border-b">
@@ -14,8 +14,8 @@ export default function ({ thumb, user, username, type, title, location, beds, b
 					<div className="absolute bottom-4 left-4 text-white z-50">${price} / mo</div>
 				</div>
 				<div className="text-[#ff5a5f] px-2 mb-1 text-md">{type}</div>
-				<Link href="/property/z8392" className="px-2 font-bold mb-2 hover:text-[#ff5a5f]">
-					{title}
+				<Link href="/property/detail" className="px-2 font-bold block mb-2 hover:text-[#ff5a5f]">
+					{name}
 				</Link>
 				<div className="px-2 flex items-center mb-2">
 					<IconMapPin size={20} style={{ padding: 2 }} />
@@ -27,10 +27,10 @@ export default function ({ thumb, user, username, type, title, location, beds, b
 				</div>
 			</div>
 			<div className="py-3 px-6 flex justify-between items-center">
-				<div className="flex items-center gap-2">
+				<Link href="/agent/detail" className="flex items-center gap-2">
 					<img src={user} alt="user" className="rounded-full" width="36px" />
-					<p className="text-[#666] text-sm">{username}</p>
-				</div>
+					<p className="text-[#666] text-sm hover:text-[#ff5a5f]">{username}</p>
+				</Link>
 				<p>1 year ago</p>
 			</div>
 		</div>

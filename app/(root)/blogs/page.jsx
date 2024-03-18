@@ -62,31 +62,31 @@ export default function () {
 						<h2 className="text-lg font-bold mb-3">Categories Property</h2>
 						<div>
 							<div className="flex justify-between items-center">
-								<Link href="#" className="text-blue-400 text-sm py-1">
+								<Link href="#" className="text-blue-400 text-sm py-1 hover:text-blue-600">
 									Apartment
 								</Link>
 								<div className="text-xs">6 properties</div>
 							</div>
 							<div className="flex justify-between items-center">
-								<Link href="#" className="text-blue-400 text-sm py-1">
+								<Link href="#" className="text-blue-400 text-sm py-1 hover:text-blue-600">
 									Condo
 								</Link>
 								<div className="text-xs">9 properties</div>
 							</div>
 							<div className="flex justify-between items-center">
-								<Link href="#" className="text-blue-400 text-sm py-1">
+								<Link href="#" className="text-blue-400 text-sm py-1 hover:text-blue-600">
 									Family House
 								</Link>
 								<div className="text-xs">12 properties</div>
 							</div>
 							<div className="flex justify-between items-center">
-								<Link href="#" className="text-blue-400 text-sm py-1">
+								<Link href="#" className="text-blue-400 text-sm py-1 hover:text-blue-600">
 									Modern Villa
 								</Link>
 								<div className="text-xs">3 properties</div>
 							</div>
 							<div className="flex justify-between items-center">
-								<Link href="#" className="text-blue-400 text-sm py-1">
+								<Link href="#" className="text-blue-400 text-sm py-1 hover:text-blue-600">
 									Town House
 								</Link>
 								<div className="text-xs">12 properties</div>
@@ -101,6 +101,7 @@ export default function () {
 							spaceBetween={10}
 							centeredSlides
 							pagination={{ clickable: true }}
+							style={{ paddingBottom: 10 }}
 							autoplay
 							loop
 						>
@@ -126,7 +127,7 @@ export default function () {
 					</div>
 
 					<div className="bg-white p-6 rounded-md shadow-sm border">
-						<h2 className="text-lg font-bold mb-3">Featured Properties</h2>
+						<h2 className="text-lg font-bold mb-3">Tags</h2>
 						<div className="flex flex-wrap text-xs gap-2">
 							<div className="py-2 px-4 bg-gray-100 rounded-md cursor-pointer hover:bg-gray-200">Apartment</div>
 							<div className="py-2 px-4 bg-gray-100 rounded-md cursor-pointer hover:bg-gray-200">Real Estate</div>
