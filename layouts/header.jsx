@@ -1,13 +1,15 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import NavItem from "@/components/navitem";
+import { IconUser } from "@tabler/icons-react";
 
 export default function () {
 	const headerRef = useRef(null);
 	const logoRef = useRef(null);
 	const pathname = usePathname();
+	const [loggedIn, setLoggedIn] = useState(true);
 	const expandUrls = ["/", "/about", "/contact", "/compare", "/faq", "/plan", "/service", "/terms"];
 
 	const setHeaderStyle = () => {
@@ -51,55 +53,75 @@ export default function () {
 				</Link>
 				<div className="flex">
 					<NavItem
-						label="Buy"
+						label="Buy & Sell"
 						dropdown={
-							<div className="bg-white py-2 text-black border border-gray-100 flex flex-col">
-								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
-									Buy With Us
+							<div className="bg-white py-2 text-black border border-gray-100 flex flex-col min-w-[150px]">
+								<Link href="/buyerguide" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
+									Buyer Guide
 								</Link>
-								<Link href="/properties" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
+								<Link href="/sellerguide" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
+									Seller Guide
+								</Link>
+								<Link href="/properties" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
 									All Listings
 								</Link>
-								<Link href="/featured" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
+								<Link href="/properties" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
 									Featured Listings
 								</Link>
 							</div>
 						}
-					/>
-					<NavItem
-						label="Sell"
-						dropdown={
-							<div className="bg-white py-2 text-black border border-gray-100 flex flex-col">
-								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
-									Sell My Home
-								</Link>
-								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
-									Market Snapshot
-								</Link>
-								<Link href="#" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
-									Home Valuation
-								</Link>
-							</div>
-						}
+						arrowdown
 					/>
 					<NavItem
 						label="About"
 						dropdown={
-							<div className="bg-white py-2 text-black border border-gray-100 flex flex-col">
-								<Link href="/about" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
+							<div className="bg-white py-2 text-black border border-gray-100 flex flex-col min-w-[150px]">
+								<Link href="/about" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
 									About Us
 								</Link>
-								<Link href="/contact" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
-									Contact Us
+								<Link href="/terms" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
+									Privacy
 								</Link>
-								<Link href="/partner" className="py-2 px-4 font-bold hover:bg-[#ccc] text-[#555] duration-200">
-									Partner With Us
+								<Link href="/service" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
+									Service
+								</Link>
+								<Link href="/blogs" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
+									Our Blogs
+								</Link>
+								<Link href="/faq" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
+									Faq
 								</Link>
 							</div>
 						}
+						arrowdown
 					/>
-					<NavItem label="SignIn" href="/signin" />
-					<NavItem label="SignUp" href="/signup" />
+					<NavItem label="ContactUs" href="/contact" />
+					{loggedIn ? (
+						<NavItem
+							label={<div className="w-10 h-10 grid place-items-center border-2 rounded-full">AB</div>}
+							dropdown={
+								<div className="bg-white py-2 text-black border border-gray-100 flex flex-col min-w-[150px]">
+									<Link href="/listings" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
+										My Listings
+									</Link>
+									<Link href="/reviews" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
+										My Reviews
+									</Link>
+									<Link href="/favourites" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
+										My Favourites
+									</Link>
+									<Link href="/logout" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
+										Logout
+									</Link>
+								</div>
+							}
+						/>
+					) : (
+						<>
+							<NavItem label="SignIn" href="/signin" />
+							<NavItem label="SignUp" href="/signup" />
+						</>
+					)}
 				</div>
 			</div>
 		</div>
