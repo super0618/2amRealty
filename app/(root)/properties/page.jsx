@@ -43,7 +43,7 @@ export default function () {
 							<input type="text" className="px-4 py-1 border border-gray-300 rounded-md mb-4" placeholder="Min Price" />
 							<input type="text" className="px-4 py-1 border border-gray-300 rounded-md mb-4" placeholder="Max Price" />
 						</div>
-						<div className="bg-[#ff5a5f] py-2 text-center text-white rounded-lg cursor-pointer hover:bg-[#e23e43]">Clear Filters</div>
+						<div className="bg-[#B63437] py-2 text-center text-white rounded-lg cursor-pointer hover:bg-[#e23e43]">Clear Filters</div>
 					</div>
 
 					<div className="bg-white p-6 rounded-md shadow-sm border">
@@ -255,8 +255,8 @@ export default function () {
 						/>
 						<ReactPaginate
 							pageCount={7}
-							previousLabel={<IconArrowLeft size={16} color="#333" />}
-							nextLabel={<IconArrowRight size={16} color="#333" />}
+							previousLabel={<IconArrowLeft size={16} />}
+							nextLabel={<IconArrowRight size={16} />}
 							onPageChange={onPageChange}
 							className="col-span-2 own-pagination space-x-2 text-center"
 						/>

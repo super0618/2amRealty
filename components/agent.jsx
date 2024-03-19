@@ -6,10 +6,10 @@ export default function () {
 		<div className="rounded-md bg-white shadow-md max-w-[400px] mx-auto">
 			<div className="p-4 border-b">
 				<img src="/images/agents/1.jpg" alt="agent1" className="rounded-lmd mb-4" />
-				<Link href="/agent/sfsef" className="font-bold block text-[#666x] cursor-pointer mb-1 hover:text-[#ff5a5f]">
+				<Link href="/agent/sfsef" className="font-bold block text-[#666x] cursor-pointer mb-1 hover:text-[#B63437]">
 					Renovated Apart
 				</Link>
-				<h2 className="text-[#ff5a5f] text-sm mb-2">Broker</h2>
+				<h2 className="text-[#B63437] text-sm mb-2">Broker</h2>
 				<div className="text-sm mb-1">Office: 134 456 3210</div>
 				<div className="text-sm mb-1">Mobile: 891 456 9874</div>
 				<div className="text-sm mb-1">Fax: 342 654 1258</div>
@@ -23,7 +23,7 @@ export default function () {
 					<IconBrandPinterest size={14} color="#999" />
 					<IconBrandDribbble size={14} color="#999" />
 				</div>
-				<Link href="/agent/sfsef" className="text-sm text-[#ff5a5f]">
+				<Link href="/agent/sfsef" className="text-sm text-[#B63437]">
 					View Listing
 				</Link>
 			</div>

@@ -8,8 +8,8 @@ export default function () {
 				<div className="text-4xl font-bold mb-6 text-center">Frequently Asked Questions</div>
 				<div className="p-6 bg-white rounded-md border shadow-sm max-w-[700px] mx-auto">
 					<details className="cursor-pointer focus:outline-none px-4 py-2">
-						<summary>Contrary to popular belief, Lorem Ipsum is not simply</summary>
-						<p className="py-3">
+						<summary className="text-[#B63437]">Contrary to popular belief, Lorem Ipsum is not simply</summary>
+						<p className="text-[#25185E] py-3">
 							Maecenas quis viverra metus, et efficitur ligula. Nam congue augue et ex congue, sed luctus lectus congue. Integer convallis
 							condimentum sem. Duis elementum tortor eget condimentum tempor. Praesent sollicitudin lectus ut pharetra pulvinar. Donec et libero
 							ligula. Vivamus semper at orci at placerat.Placeat Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero amet,
@@ -17,8 +17,8 @@ export default function () {
 						</p>
 					</details>
 					<details className="cursor-pointer focus:outline-none px-4 py-2">
-						<summary>There are many variations of passages of Lorem</summary>
-						<p className="py-3">
+						<summary className="text-[#B63437]">There are many variations of passages of Lorem</summary>
+						<p className="text-[#25185E] py-3">
 							Maecenas quis viverra metus, et efficitur ligula. Nam congue augue et ex congue, sed luctus lectus congue. Integer convallis
 							condimentum sem. Duis elementum tortor eget condimentum tempor. Praesent sollicitudin lectus ut pharetra pulvinar. Donec et libero
 							ligula. Vivamus semper at orci at placerat.Placeat Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero amet,
@@ -26,8 +26,8 @@ export default function () {
 						</p>
 					</details>
 					<details className="cursor-pointer focus:outline-none px-4 py-2">
-						<summary>Model sentence structures, to generate</summary>
-						<p className="py-3">
+						<summary className="text-[#B63437]">Model sentence structures, to generate</summary>
+						<p className="text-[#25185E] py-3">
 							Maecenas quis viverra metus, et efficitur ligula. Nam congue augue et ex congue, sed luctus lectus congue. Integer convallis
 							condimentum sem. Duis elementum tortor eget condimentum tempor. Praesent sollicitudin lectus ut pharetra pulvinar. Donec et libero
 							ligula. Vivamus semper at orci at placerat.Placeat Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero amet,
@@ -35,8 +35,8 @@ export default function () {
 						</p>
 					</details>
 					<details className="cursor-pointer focus:outline-none px-4 py-2">
-						<summary>Finibus Bonorum et Malorum by Cicero are also</summary>
-						<p className="py-3">
+						<summary className="text-[#B63437]">Finibus Bonorum et Malorum by Cicero are also</summary>
+						<p className="text-[#25185E] py-3">
 							Maecenas quis viverra metus, et efficitur ligula. Nam congue augue et ex congue, sed luctus lectus congue. Integer convallis
 							condimentum sem. Duis elementum tortor eget condimentum tempor. Praesent sollicitudin lectus ut pharetra pulvinar. Donec et libero
 							ligula. Vivamus semper at orci at placerat.Placeat Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero amet,
@@ -44,8 +44,8 @@ export default function () {
 						</p>
 					</details>
 					<details className="cursor-pointer focus:outline-none px-4 py-2">
-						<summary>Letraset sheets containing Lorem Ipsum passages</summary>
-						<p className="py-3">
+						<summary className="text-[#B63437]">Letraset sheets containing Lorem Ipsum passages</summary>
+						<p className="text-[#25185E] py-3">
 							Maecenas quis viverra metus, et efficitur ligula. Nam congue augue et ex congue, sed luctus lectus congue. Integer convallis
 							condimentum sem. Duis elementum tortor eget condimentum tempor. Praesent sollicitudin lectus ut pharetra pulvinar. Donec et libero
 							ligula. Vivamus semper at orci at placerat.Placeat Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero amet,
@@ -53,8 +53,8 @@ export default function () {
 						</p>
 					</details>
 					<details className="cursor-pointer focus:outline-none px-4 py-2">
-						<summary>Model sentence structures, to generate</summary>
-						<p className="py-3">
+						<summary className="text-[#B63437]">Model sentence structures, to generate</summary>
+						<p className="text-[#25185E] py-3">
 							Maecenas quis viverra metus, et efficitur ligula. Nam congue augue et ex congue, sed luctus lectus congue. Integer convallis
 							condimentum sem. Duis elementum tortor eget condimentum tempor. Praesent sollicitudin lectus ut pharetra pulvinar. Donec et libero
 							ligula. Vivamus semper at orci at placerat.Placeat Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero amet,

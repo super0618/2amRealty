@@ -9,13 +9,13 @@ export default function ({ thumb, type, title, location, beds, baths, price }) {
 			</div>
 			<div className="col-span-3">
 				<div className="flex justify-between items-center">
-					<div className="px-4 py-1 rounded-sm bg-[#ff5a5f] text-white text-sm inline-block mb-1">Sale</div>
+					<div className="px-4 py-1 rounded-sm bg-[#B63437] text-white text-sm inline-block mb-1">Sale</div>
 					<div className="p-3 text-[#666]">
 						<span className="font-bold">${price}</span> / mo
 					</div>
 				</div>
-				<div className="text-[#ff5a5f] mb-1 text-md">{type}</div>
-				<Link href="/property/soieeh" className="font-bold cursor-pointer mb-2 hover:text-[#ff5a5f]">
+				<div className="text-[#B63437] mb-1 text-md">{type}</div>
+				<Link href="/property/soieeh" className="font-bold cursor-pointer mb-2 hover:text-[#B63437]">
 					{title}
 				</Link>
 				<div className="flex mb-2">

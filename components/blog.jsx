@@ -7,12 +7,12 @@ export default function ({ thumb, title, content, username, date, avatar, minimi
 			<div className="p-2 mb-2">
 				<img src={thumb} alt="blog" />
 			</div>
-			<Link href="/blog/detail" className="font-bold px-2 hover:text-[#ff5a5f]">
+			<Link href="/blog/detail" className="font-bold px-2 hover:text-[#B63437]">
 				{title}
 			</Link>
 			<p className="text-sm p-2 border-b">{content}</p>
 			<div className="grid grid-cols-3 text-sm p-4">
-				<Link href="/agent/detail" className={`flex items-center gap-2 hover:text-[#ff5a5f] ${minimized ? "col-span-2" : ""}`}>
+				<Link href="/agent/detail" className={`flex items-center gap-2 hover:text-[#B63437] ${minimized ? "col-span-2" : ""}`}>
 					<img src={avatar} alt="avatar" width="36px" className="rounded-full" />
 					<p>{username}</p>
 				</Link>
@@ -23,7 +23,7 @@ export default function ({ thumb, title, content, username, date, avatar, minimi
 					</div>
 				)}
 				<Link href="/blog/detail" className="flex items-center justify-end">
-					<div className="text-[#ff5a5f] hover:text-[#e23e43]">Read More</div>
+					<div className="text-[#B63437] hover:text-[#e23e43]">Read More</div>
 				</Link>
 			</div>
 		</div>

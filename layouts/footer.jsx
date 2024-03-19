@@ -26,16 +26,19 @@ export default function () {
 					</p>
 				</div>
 				<div>
-					<p className="text-white font-bold text-2xl mb-4">Follow Us</p>
-					<div className="flex gap-4 mb-6">
-						<IconBrandFacebookFilled size={18} color="#999" />
-						<IconBrandTwitterFilled size={18} color="#999" />
-						<IconBrandInstagram size={18} color="#999" />
-						<IconBrandPinterest size={18} color="#999" />
-						<IconBrandDribbble size={18} color="#999" />
-					</div>
 					<p className="text-white font-bold text-2xl mb-4">Subscribe</p>
 					<input type="text" className="border border-[#8a99b3] bg-[#24324a] px-4 py-2 w-full max-w-96" placeholder="Enter your email" />
+				</div>
+			</div>
+			<div className="container grid md:grid-cols-3">
+				<div className="text-white flex items-center">© - ALL RIGHTS RESERVED - 2023</div>
+				<img src="/images/footerlogo.png" alt="logo" className="block mx-auto" />
+				<div className="flex items-center justify-start md:justify-end gap-4 mb-6">
+					<IconBrandFacebookFilled size={18} color="#999" />
+					<IconBrandTwitterFilled size={18} color="#999" />
+					<IconBrandInstagram size={18} color="#999" />
+					<IconBrandPinterest size={18} color="#999" />
+					<IconBrandDribbble size={18} color="#999" />
 				</div>
 			</div>
 		</div>

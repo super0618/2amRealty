@@ -19,7 +19,7 @@ export default function () {
 						<span className="text-[#444] font-bold">$13000</span> / mo
 					</div>
 					<div className="flex space-x-4">
-						<IconHeart size={18} color="#ff5a5f" className="cursor-pointer" />
+						<IconHeart size={18} color="#B63437" className="cursor-pointer" />
 						<IconShare size={18} color="#333" className="cursor-pointer" />
 						<IconPrinter size={18} color="#333" className="cursor-pointer" />
 					</div>
@@ -108,49 +108,49 @@ export default function () {
 						<div className="text-xl font-bold mb-6">Features</div>
 						<div className="grid grid-cols-3 gap-4">
 							<div className="flex items-center gap-2">
-								<IconCheck size={16} color="#ff5a5f" /> Air Conditioning
+								<IconCheck size={16} color="#B63437" /> Air Conditioning
 							</div>
 							<div className="flex items-center gap-2">
-								<IconCheck size={16} color="#ff5a5f" /> Lawn
+								<IconCheck size={16} color="#B63437" /> Lawn
 							</div>
 							<div className="flex items-center gap-2">
-								<IconCheck size={16} color="#ff5a5f" /> Swimming Pool
+								<IconCheck size={16} color="#B63437" /> Swimming Pool
 							</div>
 							<div className="flex items-center gap-2">
-								<IconCheck size={16} color="#ff5a5f" /> Barbeque
+								<IconCheck size={16} color="#B63437" /> Barbeque
 							</div>
 							<div className="flex items-center gap-2">
-								<IconCheck size={16} color="#ff5a5f" /> Microwave
+								<IconCheck size={16} color="#B63437" /> Microwave
 							</div>
 							<div className="flex items-center gap-2">
-								<IconCheck size={16} color="#ff5a5f" /> TV Cable
+								<IconCheck size={16} color="#B63437" /> TV Cable
 							</div>
 							<div className="flex items-center gap-2">
-								<IconCheck size={16} color="#ff5a5f" /> Dryer
+								<IconCheck size={16} color="#B63437" /> Dryer
 							</div>
 							<div className="flex items-center gap-2">
-								<IconCheck size={16} color="#ff5a5f" /> Outdoor Shower
+								<IconCheck size={16} color="#B63437" /> Outdoor Shower
 							</div>
 							<div className="flex items-center gap-2">
-								<IconCheck size={16} color="#ff5a5f" /> Washer
+								<IconCheck size={16} color="#B63437" /> Washer
 							</div>
 							<div className="flex items-center gap-2">
-								<IconCheck size={16} color="#ff5a5f" /> Gym
+								<IconCheck size={16} color="#B63437" /> Gym
 							</div>
 							<div className="flex items-center gap-2">
-								<IconCheck size={16} color="#ff5a5f" /> Refrigerator
+								<IconCheck size={16} color="#B63437" /> Refrigerator
 							</div>
 							<div className="flex items-center gap-2">
-								<IconCheck size={16} color="#ff5a5f" /> WiFi
+								<IconCheck size={16} color="#B63437" /> WiFi
 							</div>
 							<div className="flex items-center gap-2">
-								<IconCheck size={16} color="#ff5a5f" /> Laundry
+								<IconCheck size={16} color="#B63437" /> Laundry
 							</div>
 							<div className="flex items-center gap-2">
-								<IconCheck size={16} color="#ff5a5f" /> Sauna
+								<IconCheck size={16} color="#B63437" /> Sauna
 							</div>
 							<div className="flex items-center gap-2">
-								<IconCheck size={16} color="#ff5a5f" /> Window Coverings
+								<IconCheck size={16} color="#B63437" /> Window Coverings
 							</div>
 						</div>
 					</div>
@@ -178,11 +178,11 @@ export default function () {
 					<div className="bg-white rounded-md shadow-sm border">
 						<div className="flex gap-1 p-6 items-center">
 							<p className="text-xl font-bold pr-6">896 Reviews</p>
-							<IconStarFilled color="#ff5a5f" size={18} />
-							<IconStarFilled color="#ff5a5f" size={18} />
-							<IconStarFilled color="#ff5a5f" size={18} />
-							<IconStarFilled color="#ff5a5f" size={18} />
-							<IconStarHalfFilled color="#ff5a5f" size={18} />
+							<IconStarFilled color="#B63437" size={18} />
+							<IconStarFilled color="#B63437" size={18} />
+							<IconStarFilled color="#B63437" size={18} />
+							<IconStarFilled color="#B63437" size={18} />
+							<IconStarHalfFilled color="#B63437" size={18} />
 							<p className="text-sm text-[#666]">(4.5 out of 5)</p>
 						</div>
 
@@ -193,14 +193,14 @@ export default function () {
 								</div>
 								<div>
 									<div className="flex items-center">
-										<Link href="/agent/detail" className="font-bold pr-4 hover:text-[#ff5a5f]">
+										<Link href="/agent/detail" className="font-bold pr-4 hover:text-[#B63437]">
 											Samul Williams
 										</Link>
-										<IconStarFilled color="#ff5a5f" size={16} />
-										<IconStarFilled color="#ff5a5f" size={16} />
-										<IconStarFilled color="#ff5a5f" size={16} />
-										<IconStarHalfFilled color="#ff5a5f" size={16} />
-										<IconStar color="#ff5a5f" size={16} />
+										<IconStarFilled color="#B63437" size={16} />
+										<IconStarFilled color="#B63437" size={16} />
+										<IconStarFilled color="#B63437" size={16} />
+										<IconStarHalfFilled color="#B63437" size={16} />
+										<IconStar color="#B63437" size={16} />
 									</div>
 									<p className="text-[#666]">
 										Beautiful home, very picturesque and close to everything in jtree! A little warm for a hot weekend, but would love to
@@ -215,14 +215,14 @@ export default function () {
 								</div>
 								<div>
 									<div className="flex items-center">
-										<Link href="/agent/detail" className="font-bold pr-4 hover:text-[#ff5a5f]">
+										<Link href="/agent/detail" className="font-bold pr-4 hover:text-[#B63437]">
 											Samul Williams
 										</Link>
-										<IconStarFilled color="#ff5a5f" size={16} />
-										<IconStarFilled color="#ff5a5f" size={16} />
-										<IconStarFilled color="#ff5a5f" size={16} />
-										<IconStarHalfFilled color="#ff5a5f" size={16} />
-										<IconStar color="#ff5a5f" size={16} />
+										<IconStarFilled color="#B63437" size={16} />
+										<IconStarFilled color="#B63437" size={16} />
+										<IconStarFilled color="#B63437" size={16} />
+										<IconStarHalfFilled color="#B63437" size={16} />
+										<IconStar color="#B63437" size={16} />
 									</div>
 									<p className="text-[#666]">
 										Beautiful home, very picturesque and close to everything in jtree! A little warm for a hot weekend, but would love to
@@ -236,17 +236,17 @@ export default function () {
 							<div className="text-md font-bold text-[#666]">Write a Review</div>
 							<div className="flex items-center gap-6">
 								<div className="flex gap-1">
-									<IconStarFilled color="#ff5a5f" size={16} />
-									<IconStarFilled color="#ff5a5f" size={16} />
-									<IconStarFilled color="#ff5a5f" size={16} />
-									<IconStarHalfFilled color="#ff5a5f" size={16} />
-									<IconStar color="#ff5a5f" size={16} />
+									<IconStarFilled color="#B63437" size={16} />
+									<IconStarFilled color="#B63437" size={16} />
+									<IconStarFilled color="#B63437" size={16} />
+									<IconStarHalfFilled color="#B63437" size={16} />
+									<IconStar color="#B63437" size={16} />
 								</div>
 								<p className="text-sm">Your Rating & Review</p>
 							</div>
 							<input type="text" className="border rounded-md w-full py-1 px-4" placeholder="Review Title" />
 							<textarea className="border rounded-md py-3 px-4 w-full h-36" placeholder="Your Review"></textarea>
-							<div className="bg-[#ff5a5f] py-3 px-8 text-center inline-block text-white rounded-lg cursor-pointer hover:bg-[#e94c51]">
+							<div className="bg-[#B63437] py-3 px-8 text-center inline-block text-white rounded-lg cursor-pointer hover:bg-[#e94c51]">
 								Submit Review
 							</div>
 						</div>
@@ -263,7 +263,7 @@ export default function () {
 								<h2 className="font-bold">Samul Williams</h2>
 								<p className="text-[#666]">(123)456-7890</p>
 								<p className="text-[#666]">info@findhouse.com</p>
-								<p className="text-[#ff5a5f] text-sm py-2">View My Listing</p>
+								<p className="text-[#B63437] text-sm py-2">View My Listing</p>
 							</div>
 						</div>
 					</div>

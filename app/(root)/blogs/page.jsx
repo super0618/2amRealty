@@ -46,8 +46,8 @@ export default function () {
 						/>
 						<ReactPaginate
 							pageCount={7}
-							previousLabel={<IconArrowLeft size={16} color="#333" />}
-							nextLabel={<IconArrowRight size={16} color="#333" />}
+							previousLabel={<IconArrowLeft size={16} />}
+							nextLabel={<IconArrowRight size={16} />}
 							onPageChange={onPageChange}
 							className="col-span-2 own-pagination space-x-2 text-center"
 						/>
