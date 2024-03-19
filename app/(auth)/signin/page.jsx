@@ -27,7 +27,7 @@ export default function () {
 					<div>
 						<p className="text-4xl font-bold text-center mb-8">Sign In</p>
 						<div className="w-full max-w-96 mx-auto">
-							<div className="w-full px-4 py-3 rounded-md mb-6 border-[#ff5a5f] border-2 text-[#ff5a5f] font-bold text-center cursor-pointer duration-200 hover:bg-[#ff5a5f] hover:text-white">
+							<div className="w-full px-4 py-3 rounded-md mb-6 border-[#B63437] border-2 text-[#B63437] font-bold text-center cursor-pointer duration-200 hover:bg-[#B63437] hover:text-white">
 								<IconBrandGoogleFilled size={22} style={{ float: "left" }} />
 								Continue with Google
 							</div>
@@ -43,7 +43,7 @@ export default function () {
 									<input type="checkbox" name="checkbox" className="w-4 h-4" />
 									Remember Me
 								</label>
-								<Link href="/forgot" className="text-[#8b91dd] hover:text-[#ff5a5f]">
+								<Link href="/forgot" className="text-[#8b91dd] hover:text-[#B63437]">
 									Forgot Password?
 								</Link>
 							</div>
@@ -51,10 +51,10 @@ export default function () {
 					</div>
 					<div>
 						<div className="w-full max-w-96 mx-auto text-center">
-							<div className="w-full px-4 py-3 rounded-md mb-2 bg-[#ff5a5f] text-white font-bold text-center cursor-pointer duration-200 hover:bg-[#e23e43]">
+							<div className="w-full px-4 py-3 rounded-md mb-2 bg-[#B63437] text-white font-bold text-center cursor-pointer duration-200 hover:bg-[#e23e43]">
 								Login
 							</div>
-							<Link href="/signup" className="text-[#8b91dd] hover:text-[#ff5a5f]">
+							<Link href="/signup" className="text-[#8b91dd] hover:text-[#B63437]">
 								Create account
 							</Link>
 						</div>

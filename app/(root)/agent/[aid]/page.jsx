@@ -32,10 +32,10 @@ export default function () {
 								<img src="/images/agents/1.jpg" alt="agent" className="h-full object-cover rounded-lg" />
 							</div>
 							<div className="col-span-2">
-								<Link href="/agent/sfsef" className="font-bold text-[#666x] block cursor-pointer mb-1 hover:text-[#ff5a5f]">
+								<Link href="/agent/sfsef" className="font-bold text-[#666x] block cursor-pointer mb-1 hover:text-[#B63437]">
 									Renovated Apart
 								</Link>
-								<h2 className="text-[#ff5a5f] text-sm mb-2">Broker</h2>
+								<h2 className="text-[#B63437] text-sm mb-2">Broker</h2>
 								<div className="text-sm mb-1">Office: 134 456 3210</div>
 								<div className="text-sm mb-1">Mobile: 891 456 9874</div>
 								<div className="text-sm mb-1">Fax: 342 654 1258</div>
@@ -113,11 +113,11 @@ export default function () {
 					<div className="bg-white rounded-md shadow-sm border p-6">
 						<div className="flex gap-1 items-center mb-6">
 							<p className="text-xl font-bold pr-6">896 Reviews</p>
-							<IconStarFilled color="#ff5a5f" size={18} />
-							<IconStarFilled color="#ff5a5f" size={18} />
-							<IconStarFilled color="#ff5a5f" size={18} />
-							<IconStarFilled color="#ff5a5f" size={18} />
-							<IconStarHalfFilled color="#ff5a5f" size={18} />
+							<IconStarFilled color="#B63437" size={18} />
+							<IconStarFilled color="#B63437" size={18} />
+							<IconStarFilled color="#B63437" size={18} />
+							<IconStarFilled color="#B63437" size={18} />
+							<IconStarHalfFilled color="#B63437" size={18} />
 							<p className="text-sm text-[#666]">(4.5 out of 5)</p>
 						</div>
 
@@ -125,17 +125,17 @@ export default function () {
 							<div className="text-md font-bold text-[#666]">Write a Review</div>
 							<div className="flex items-center gap-6">
 								<div className="flex gap-1">
-									<IconStarFilled color="#ff5a5f" size={16} />
-									<IconStarFilled color="#ff5a5f" size={16} />
-									<IconStarFilled color="#ff5a5f" size={16} />
-									<IconStarHalfFilled color="#ff5a5f" size={16} />
-									<IconStar color="#ff5a5f" size={16} />
+									<IconStarFilled color="#B63437" size={16} />
+									<IconStarFilled color="#B63437" size={16} />
+									<IconStarFilled color="#B63437" size={16} />
+									<IconStarHalfFilled color="#B63437" size={16} />
+									<IconStar color="#B63437" size={16} />
 								</div>
 								<p className="text-sm">Your Rating & Review</p>
 							</div>
 							<input type="text" className="border rounded-lg w-full py-1 px-4" placeholder="Review Title" />
 							<textarea className="border rounded-lg py-3 px-4 w-full h-36" placeholder="Your Review"></textarea>
-							<div className="bg-[#ff5a5f] py-3 px-8 text-center inline-block text-white rounded-lg cursor-pointer hover:bg-[#e94c51]">
+							<div className="bg-[#B63437] py-3 px-8 text-center inline-block text-white rounded-lg cursor-pointer hover:bg-[#e94c51]">
 								Submit Review
 							</div>
 						</div>
@@ -148,7 +148,7 @@ export default function () {
 						<input type="text" className="px-4 py-1 border border-gray-300 rounded-md mb-4 w-full" placeholder="Phone" />
 						<input type="text" className="px-4 py-1 border border-gray-300 rounded-md mb-4 w-full" placeholder="Email" />
 						<textarea className="px-4 py-2 border border-gray-300 rounded-md mb-4 w-full h-36 resize-none" placeholder="Your Message"></textarea>
-						<div className="bg-[#ff5a5f] py-2 text-center text-white rounded-lg w-full cursor-pointer hover:bg-[#e94c51]">Search</div>
+						<div className="bg-[#B63437] py-2 text-center text-white rounded-lg w-full cursor-pointer hover:bg-[#e94c51]">Search</div>
 					</div>
 
 					<div className="bg-white p-6 rounded-md shadow-sm border">

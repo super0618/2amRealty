@@ -3,14 +3,13 @@ import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import NavItem from "@/components/navitem";
-import { IconUser } from "@tabler/icons-react";
 
 export default function () {
 	const headerRef = useRef(null);
 	const logoRef = useRef(null);
 	const pathname = usePathname();
 	const [loggedIn, setLoggedIn] = useState(true);
-	const expandUrls = ["/", "/about", "/contact", "/compare", "/faq", "/plan", "/service", "/terms"];
+	const expandUrls = ["/", "/about", "/contact", "/compare", "/faq", "/plan", "/service", "/terms", "/disclosures"];
 
 	const setHeaderStyle = () => {
 		if (headerRef && logoRef) {
@@ -88,6 +87,9 @@ export default function () {
 								<Link href="/blogs" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
 									Our Blogs
 								</Link>
+								<Link href="/disclosures" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
+									Disclosures
+								</Link>
 								<Link href="/faq" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
 									Faq
 								</Link>
@@ -109,6 +111,12 @@ export default function () {
 									</Link>
 									<Link href="/favourites" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
 										My Favourites
+									</Link>
+									<Link href="/plan" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
+										My Plan
+									</Link>
+									<Link href="/blog-create" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
+										Post a Blog
 									</Link>
 									<Link href="/logout" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
 										Logout

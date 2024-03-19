@@ -25,7 +25,7 @@ export default function () {
 						<input type="text" className="px-4 py-1 border border-gray-300 rounded-md mb-4 w-full" placeholder="Enter Agent Name" />
 						<input type="text" className="px-4 py-1 border border-gray-300 rounded-md mb-4 w-full" placeholder="All Categories" />
 						<input type="text" className="px-4 py-1 border border-gray-300 rounded-md mb-4 w-full" placeholder="All Cities" />
-						<div className="bg-[#ff5a5f] py-2 text-center text-white rounded-lg w-full cursor-pointer hover:bg-[#e94c51]">Clear</div>
+						<div className="bg-[#B63437] py-2 text-center text-white rounded-lg w-full cursor-pointer hover:bg-[#e94c51]">Clear</div>
 					</div>
 
 					<div className="bg-white p-6 rounded-md shadow-sm border">

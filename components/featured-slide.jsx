@@ -9,12 +9,12 @@ export default function ({ thumb, user, username, type, name, location, beds, ba
 					<img src={thumb} alt="thumb1" width="100%" className="object-cover" />
 					<div className="absolute top-4 left-4 z-50 flex gap-2">
 						<div className="px-4 py-1 rounded-md bg-[#3e4c66] text-white text-sm">Featured</div>
-						<div className="px-4 py-1 rounded-md bg-[#ff5a5f] text-white text-sm">Sale</div>
+						<div className="px-4 py-1 rounded-md bg-[#B63437] text-white text-sm">Sale</div>
 					</div>
 					<div className="absolute bottom-4 left-4 text-white z-50">${price} / mo</div>
 				</div>
-				<div className="text-[#ff5a5f] px-2 mb-1 text-md">{type}</div>
-				<Link href="/property/detail" className="px-2 font-bold block mb-2 hover:text-[#ff5a5f]">
+				<div className="text-[#B63437] px-2 mb-1 text-md">{type}</div>
+				<Link href="/property/detail" className="px-2 font-bold block mb-2 hover:text-[#B63437]">
 					{name}
 				</Link>
 				<div className="px-2 flex items-center mb-2">
@@ -29,7 +29,7 @@ export default function ({ thumb, user, username, type, name, location, beds, ba
 			<div className="py-3 px-6 flex justify-between items-center">
 				<Link href="/agent/detail" className="flex items-center gap-2">
 					<img src={user} alt="user" className="rounded-full" width="36px" />
-					<p className="text-[#666] text-sm hover:text-[#ff5a5f]">{username}</p>
+					<p className="text-[#666] text-sm hover:text-[#B63437]">{username}</p>
 				</Link>
 				<p>1 year ago</p>
 			</div>

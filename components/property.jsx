@@ -8,13 +8,13 @@ export default function ({ thumb, user, username, type, title, location, beds, b
 				<img src={thumb} alt="thumb1" className="object-cover h-full" />
 				<div className="absolute top-0 left-0 p-3 z-50 flex gap-2 flex-wrap">
 					<div className="px-3 py-1 rounded-md bg-[#3e4c66] text-white text-sm">Featured</div>
-					<div className="px-3 py-1 rounded-md bg-[#ff5a5f] text-white text-sm">Sale</div>
+					<div className="px-3 py-1 rounded-md bg-[#B63437] text-white text-sm">Sale</div>
 				</div>
 				<div className="absolute bottom-0 left-0 p-3 text-white z-50">${price} / mo</div>
 			</div>
 			<div className="col-span-3">
-				<div className="text-[#ff5a5f] mb-1 text-md">{type}</div>
-				<Link href="/property/detail" className="font-bold mb-2 hover:text-[#ff5a5f]">
+				<div className="text-[#B63437] mb-1 text-md">{type}</div>
+				<Link href="/property/detail" className="font-bold mb-2 hover:text-[#B63437]">
 					{title}
 				</Link>
 				<div className="flex mb-2">
@@ -28,7 +28,7 @@ export default function ({ thumb, user, username, type, title, location, beds, b
 				<div className="pt-2 flex justify-between items-center">
 					<Link href="/agent/detail" className="flex items-center gap-2">
 						<img src={user} alt="user" className="rounded-full" width="36px" />
-						<p className="text-[#666] text-sm hover:text-[#ff5a5f]">{username}</p>
+						<p className="text-[#666] text-sm hover:text-[#B63437]">{username}</p>
 					</Link>
 					<p>1 year ago</p>
 				</div>
@@ -41,12 +41,12 @@ export default function ({ thumb, user, username, type, title, location, beds, b
 					<img src={thumb} alt="thumb1" width="100%" className="object-cover" />
 					<div className="absolute top-3 left-3 z-50 flex gap-2">
 						<div className="px-3 py-1 rounded-md bg-[#3e4c66] text-white text-sm">Featured</div>
-						<div className="px-3 py-1 rounded-md bg-[#ff5a5f] text-white text-sm">Sale</div>
+						<div className="px-3 py-1 rounded-md bg-[#B63437] text-white text-sm">Sale</div>
 					</div>
 					<div className="absolute bottom-3 left-3 text-white z-50">${price} / mo</div>
 				</div>
-				<div className="text-[#ff5a5f] mb-1 text-md">{type}</div>
-				<Link href="/property/detail" className="block font-bold mb-2 hover:text-[#ff5a5f]">
+				<div className="text-[#B63437] mb-1 text-md">{type}</div>
+				<Link href="/property/detail" className="block font-bold mb-2 hover:text-[#B63437]">
 					{title}
 				</Link>
 				<div className="flex mb-2">
@@ -61,7 +61,7 @@ export default function ({ thumb, user, username, type, title, location, beds, b
 			<div className="py-3 px-4 flex justify-between items-center">
 				<Link href="/agent/detail" className="flex items-center gap-2">
 					<img src={user} alt="user" className="rounded-full" width="36px" />
-					<p className="text-[#666] text-sm hover:text-[#ff5a5f]">{username}</p>
+					<p className="text-[#666] text-sm hover:text-[#B63437]">{username}</p>
 				</Link>
 				<p>1 year ago</p>
 			</div>

@@ -29,7 +29,7 @@ export default function () {
 					<div className="bg-white px-6 py-12 border rounded-md shadow-sm">
 						<h2 className="text-xl font-bold">Redfin Ranks the Most Competitive Neighborhoods of 2022</h2>
 						<div className="grid grid-cols-4 text-sm gap-4 py-6">
-							<Link href="/agent/detail" className="flex items-center gap-2 hover:text-[#ff5a5f]">
+							<Link href="/agent/detail" className="flex items-center gap-2 hover:text-[#B63437]">
 								<img src="/images/blogs/user1.png" alt="avatar" width="36px" className="rounded-full" />
 								<p>Ali Tufan</p>
 							</Link>
@@ -103,11 +103,11 @@ export default function () {
 					<div className="bg-white rounded-md shadow-sm border">
 						<div className="flex gap-1 p-6 items-center">
 							<p className="text-xl font-bold pr-6">896 Reviews</p>
-							<IconStarFilled color="#ff5a5f" size={18} />
-							<IconStarFilled color="#ff5a5f" size={18} />
-							<IconStarFilled color="#ff5a5f" size={18} />
-							<IconStarFilled color="#ff5a5f" size={18} />
-							<IconStarHalfFilled color="#ff5a5f" size={18} />
+							<IconStarFilled color="#B63437" size={18} />
+							<IconStarFilled color="#B63437" size={18} />
+							<IconStarFilled color="#B63437" size={18} />
+							<IconStarFilled color="#B63437" size={18} />
+							<IconStarHalfFilled color="#B63437" size={18} />
 							<p className="text-sm text-[#666]">(4.5 out of 5)</p>
 						</div>
 
@@ -118,14 +118,14 @@ export default function () {
 								</div>
 								<div>
 									<div className="flex items-center">
-										<Link href="/agent/detail" className="font-bold pr-4 hover:text-[#ff5a5f]">
+										<Link href="/agent/detail" className="font-bold pr-4 hover:text-[#B63437]">
 											Samul Williams
 										</Link>
-										<IconStarFilled color="#ff5a5f" size={16} />
-										<IconStarFilled color="#ff5a5f" size={16} />
-										<IconStarFilled color="#ff5a5f" size={16} />
-										<IconStarHalfFilled color="#ff5a5f" size={16} />
-										<IconStar color="#ff5a5f" size={16} />
+										<IconStarFilled color="#B63437" size={16} />
+										<IconStarFilled color="#B63437" size={16} />
+										<IconStarFilled color="#B63437" size={16} />
+										<IconStarHalfFilled color="#B63437" size={16} />
+										<IconStar color="#B63437" size={16} />
 									</div>
 									<p className="text-[#666]">
 										Beautiful home, very picturesque and close to everything in jtree! A little warm for a hot weekend, but would love to
@@ -140,14 +140,14 @@ export default function () {
 								</div>
 								<div>
 									<div className="flex items-center">
-										<Link href="/agent/detail" className="font-bold pr-4 hover:text-[#ff5a5f]">
+										<Link href="/agent/detail" className="font-bold pr-4 hover:text-[#B63437]">
 											Samul Williams
 										</Link>
-										<IconStarFilled color="#ff5a5f" size={16} />
-										<IconStarFilled color="#ff5a5f" size={16} />
-										<IconStarFilled color="#ff5a5f" size={16} />
-										<IconStarHalfFilled color="#ff5a5f" size={16} />
-										<IconStar color="#ff5a5f" size={16} />
+										<IconStarFilled color="#B63437" size={16} />
+										<IconStarFilled color="#B63437" size={16} />
+										<IconStarFilled color="#B63437" size={16} />
+										<IconStarHalfFilled color="#B63437" size={16} />
+										<IconStar color="#B63437" size={16} />
 									</div>
 									<p className="text-[#666]">
 										Beautiful home, very picturesque and close to everything in jtree! A little warm for a hot weekend, but would love to
@@ -160,17 +160,17 @@ export default function () {
 							<div className="text-md font-bold text-[#666]">Write a Review</div>
 							<div className="flex items-center gap-6">
 								<div className="flex gap-1">
-									<IconStarFilled color="#ff5a5f" size={16} />
-									<IconStarFilled color="#ff5a5f" size={16} />
-									<IconStarFilled color="#ff5a5f" size={16} />
-									<IconStarHalfFilled color="#ff5a5f" size={16} />
-									<IconStar color="#ff5a5f" size={16} />
+									<IconStarFilled color="#B63437" size={16} />
+									<IconStarFilled color="#B63437" size={16} />
+									<IconStarFilled color="#B63437" size={16} />
+									<IconStarHalfFilled color="#B63437" size={16} />
+									<IconStar color="#B63437" size={16} />
 								</div>
 								<p className="text-sm">Your Rating & Review</p>
 							</div>
 							<input type="text" className="border rounded-md w-full py-1 px-4" placeholder="Review Title" />
 							<textarea className="border rounded-md py-3 px-4 w-full h-36" placeholder="Your Review"></textarea>
-							<div className="bg-[#ff5a5f] py-3 px-8 text-center inline-block text-white rounded-lg cursor-pointer hover:bg-[#e94c51]">
+							<div className="bg-[#B63437] py-3 px-8 text-center inline-block text-white rounded-lg cursor-pointer hover:bg-[#e94c51]">
 								Submit Review
 							</div>
 						</div>

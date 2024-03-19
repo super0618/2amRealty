@@ -27,11 +27,11 @@ export default function () {
 					<div>
 						<p className="text-4xl font-bold text-center mb-8">Sign Up</p>
 						<div className="w-full max-w-96 mx-auto">
-							<div className="w-full px-4 py-3 rounded-md mb-6 border-[#ff5a5f] border-2 text-[#ff5a5f] font-bold text-center cursor-pointer duration-200 hover:bg-[#ff5a5f] hover:text-white">
+							<div className="w-full px-4 py-3 rounded-md mb-6 border-[#B63437] border-2 text-[#B63437] font-bold text-center cursor-pointer duration-200 hover:bg-[#B63437] hover:text-white">
 								<IconBrandGoogleFilled size={22} style={{ float: "left" }} />
 								SignUp with Google
 							</div>
-							<div className="w-full px-4 py-3 rounded-md mb-6 border-[#506dab] border-2 text-[#506dab] font-bold text-center cursor-pointer duration-200 hover:bg-[#506dab] hover:text-white">
+							<div className="w-full px-4 py-3 rounded-md mb-6 border-[#25185E] border-2 text-[#25185E] font-bold text-center cursor-pointer duration-200 hover:bg-[#25185E] hover:text-white">
 								<IconBrandFacebookFilled size={22} style={{ float: "left" }} />
 								SignUp with Facebook
 							</div>
@@ -49,10 +49,10 @@ export default function () {
 					</div>
 					<div>
 						<div className="w-full max-w-96 mx-auto text-center">
-							<div className="w-full px-4 py-3 rounded-md mb-2 bg-[#ff5a5f] text-white font-bold text-center cursor-pointer duration-200 hover:bg-[#e23e43]">
+							<div className="w-full px-4 py-3 rounded-md mb-2 bg-[#B63437] text-white font-bold text-center cursor-pointer duration-200 hover:bg-[#e23e43]">
 								Register
 							</div>
-							<Link href="/signin" className="text-[#8b91dd] hover:text-[#ff5a5f]">
+							<Link href="/signin" className="text-[#8b91dd] hover:text-[#B63437]">
 								Sign in
 							</Link>
 						</div>

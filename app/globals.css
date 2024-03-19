@@ -26,11 +26,11 @@ textarea:focus {
 }
 
 .own-pagination li:hover {
-	background-color: #ff5a5f;
+	background-color: #b63437;
 	color: #fff;
 }
 
 .own-pagination li.selected {
-	background-color: #ff5a5f;
+	background-color: #b63437;
 	color: #fff;
 }

@@ -23,7 +23,7 @@ export default function () {
 							<input type="text" className="px-4 py-1 border border-gray-300 rounded-md" placeholder="Subject" />
 							<textarea className="col-span-2 p-4 border border-gray-300 rounded-md resize-none h-60" placeholder="Your Message"></textarea>
 						</div>
-						<div className="bg-[#ff5a5f] py-3 px-8 text-center inline-block text-white rounded-lg cursor-pointer hover:bg-[#e94c51]">
+						<div className="bg-[#B63437] py-3 px-8 text-center inline-block text-white rounded-lg cursor-pointer hover:bg-[#e94c51]">
 							Send Message
 						</div>
 					</div>
