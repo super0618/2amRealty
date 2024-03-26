@@ -1,4 +1,5 @@
 import Landing from "@/components/landing";
+import Law from "@/components/law";
 import AgentRegisterForm from "@/components/ui/agent-register-form";
 
 export default function () {
@@ -38,6 +39,7 @@ export default function () {
 					</div>
 				</div>
 			</div>
+			<Law />
 			<AgentRegisterForm />
 		</div>
 	);

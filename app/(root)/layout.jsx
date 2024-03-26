@@ -6,11 +6,11 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 export default function ({ children }) {
-	return (
-		<>
-			<Header />
-			{children}
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <Header />
+      {children}
+      <Footer />
+    </>
+  );
 }

@@ -1,4 +1,5 @@
 import Landing from "@/components/landing";
+import Law from "@/components/law";
 
 export default function () {
 	return (
@@ -43,6 +44,7 @@ export default function () {
 						<p>12 Walkable Cities Where You Can Live Affordably</p>
 					</div>
 				</div>
+				<Law />
 			</div>
 		</>
 	);

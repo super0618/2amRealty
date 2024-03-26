@@ -1,4 +1,5 @@
 import BlogSlide from "@/components/blog-slide";
+import Law from "@/components/law";
 
 export default function () {
 	return (
@@ -53,6 +54,7 @@ export default function () {
 					description="Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Duis Mol"
 				/>
 			</div>
+			<Law />
 		</div>
 	);
 }

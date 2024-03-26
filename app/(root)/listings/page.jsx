@@ -2,6 +2,7 @@
 import Link from "next/link";
 import DataTable from "react-data-table-component";
 import { IconPencil, IconTrash } from "@tabler/icons-react";
+import Law from "@/components/law";
 
 export default function () {
 	const columns = [
@@ -102,6 +103,7 @@ export default function () {
 			<div className="container bg-white rounded-md shadow-sm border p-6">
 				<DataTable columns={columns} data={data} />
 			</div>
+			<Law />
 		</div>
 	);
 }

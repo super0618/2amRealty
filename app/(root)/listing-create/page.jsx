@@ -1,3 +1,4 @@
+import Law from "@/components/law";
 import { IconUpload } from "@tabler/icons-react";
 
 export default function () {
@@ -248,6 +249,7 @@ export default function () {
 					</div>
 				</div>
 			</div>
+			<Law />
 		</div>
 	);
 }

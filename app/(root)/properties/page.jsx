@@ -8,6 +8,7 @@ import FeaturedSide from "@/components/featuredside";
 import ViewedSide from "@/components/viewedside";
 import ReactPaginate from "react-paginate";
 import { IconLayoutGridFilled, IconList, IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
+import Law from "@/components/law";
 
 export default function () {
 	const [listMode, setListMode] = useState(false);
@@ -263,6 +264,7 @@ export default function () {
 					</div>
 				</div>
 			</div>
+			<Law />
 		</div>
 	);
 }

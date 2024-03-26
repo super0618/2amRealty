@@ -5,6 +5,7 @@ import { IconCheck, IconPlayerPlayFilled, IconStarFilled, IconStarHalfFilled, Ic
 import Link from "next/link";
 import FeaturedSide from "@/components/featuredside";
 import ViewedSide from "@/components/viewedside";
+import Law from "@/components/law";
 
 export default function () {
 	return (
@@ -346,6 +347,7 @@ export default function () {
 					</div>
 				</div>
 			</div>
+			<Law />
 		</div>
 	);
 }

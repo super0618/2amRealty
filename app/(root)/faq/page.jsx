@@ -1,4 +1,5 @@
 import Landing from "@/components/landing";
+import Law from "@/components/law";
 
 export default function () {
 	return (
@@ -63,6 +64,7 @@ export default function () {
 					</details>
 				</div>
 			</div>
+			<Law />
 		</div>
 	);
 }

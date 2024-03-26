@@ -2,6 +2,7 @@ import Link from "next/link";
 import Landing from "@/components/landing";
 import { IconBrandFacebookFilled, IconBrandTwitterFilled, IconBrandInstagram, IconBrandPinterest, IconBrandDribbble } from "@tabler/icons-react";
 import AgentRegisterForm from "@/components/ui/agent-register-form";
+import Law from "@/components/law";
 
 export default function () {
 	return (
@@ -69,6 +70,7 @@ export default function () {
 				loading="lazy"
 				referrerPolicy="no-referrer-when-downgrade"
 			></iframe>
+			<Law />
 			<AgentRegisterForm />
 		</>
 	);

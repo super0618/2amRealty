@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Landing from "@/components/landing";
+import Law from "@/components/law";
 
 export default function () {
 	return (
@@ -75,6 +76,7 @@ export default function () {
 						</div>
 					</div>
 				</div>
+				<Law />
 			</div>
 		</>
 	);
