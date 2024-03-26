@@ -1,5 +1,5 @@
 "use client";
-import { Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Navigation, Pagination, Scrollbar, Autoplay, A11y } from "swiper/modules";
 import TeamSlide from "@/components/team-slide";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -9,7 +9,7 @@ export default function ({ large = true }) {
 			<div className="text-4xl font-bold mb-2 text-center">Meet the team</div>
 			<div className="text-lg text-[#666] mb-12 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
 			<Swiper
-				modules={[Pagination, Scrollbar, A11y]}
+				modules={[Navigation, Pagination, Scrollbar, Autoplay, A11y]}
 				spaceBetween={30}
 				breakpoints={{
 					750: { slidesPerView: 2 },
@@ -18,13 +18,14 @@ export default function ({ large = true }) {
 				centeredSlides
 				pagination={{ clickable: true }}
 				style={{ paddingBottom: 64 }}
+				autoplay
 				loop
 			>
 				<SwiperSlide>
 					<TeamSlide
 						avatar="/images/teams/member1.png"
-						name="Mary Brown"
-						role="Strategy Director"
+						name="Ashley Andrews"
+						role="CEO"
 						large={large}
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 					/>
@@ -32,8 +33,8 @@ export default function ({ large = true }) {
 				<SwiperSlide>
 					<TeamSlide
 						avatar="/images/teams/member2.png"
-						name="Mary Brown"
-						role="Creative Leader"
+						name="Deidra Hopkins"
+						role="Realtor"
 						large={large}
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 					/>
@@ -41,8 +42,8 @@ export default function ({ large = true }) {
 				<SwiperSlide>
 					<TeamSlide
 						avatar="/images/teams/member3.png"
-						name="Mary Brown"
-						role="CTO"
+						name="Kevin Jones"
+						role="Broker-of-Record"
 						large={large}
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 					/>
@@ -50,8 +51,8 @@ export default function ({ large = true }) {
 				<SwiperSlide>
 					<TeamSlide
 						avatar="/images/teams/member4.png"
-						name="Mary Brown"
-						role="Designer"
+						name="Loretta Sercy"
+						role="Realtor"
 						large={large}
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 					/>
