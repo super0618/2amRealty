@@ -22,7 +22,7 @@ export default function ({ large = true }) {
 			>
 				<SwiperSlide>
 					<TeamSlide
-						avatar="/images/teams/member1.jpg"
+						avatar="/images/teams/member1.png"
 						name="Mary Brown"
 						role="Strategy Director"
 						large={large}
@@ -31,7 +31,7 @@ export default function ({ large = true }) {
 				</SwiperSlide>
 				<SwiperSlide>
 					<TeamSlide
-						avatar="/images/teams/member2.jpg"
+						avatar="/images/teams/member2.png"
 						name="Mary Brown"
 						role="Creative Leader"
 						large={large}
@@ -40,7 +40,7 @@ export default function ({ large = true }) {
 				</SwiperSlide>
 				<SwiperSlide>
 					<TeamSlide
-						avatar="/images/teams/member3.jpg"
+						avatar="/images/teams/member3.png"
 						name="Mary Brown"
 						role="CTO"
 						large={large}
@@ -49,18 +49,9 @@ export default function ({ large = true }) {
 				</SwiperSlide>
 				<SwiperSlide>
 					<TeamSlide
-						avatar="/images/teams/member4.jpg"
+						avatar="/images/teams/member4.png"
 						name="Mary Brown"
 						role="Designer"
-						large={large}
-						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-					/>
-				</SwiperSlide>
-				<SwiperSlide>
-					<TeamSlide
-						avatar="/images/teams/member5.jpg"
-						name="Mary Brown"
-						role="Developer"
 						large={large}
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 					/>

@@ -6,23 +6,20 @@ import NavItem from "@/components/navitem";
 
 export default function () {
 	const headerRef = useRef(null);
-	const logoRef = useRef(null);
 	const pathname = usePathname();
 	const [loggedIn, setLoggedIn] = useState(true);
 	const expandUrls = ["/", "/about", "/contact", "/compare", "/faq", "/plan", "/service", "/terms", "/disclosures"];
 
 	const setHeaderStyle = () => {
-		if (headerRef && logoRef) {
+		if (headerRef) {
 			if (window.scrollY > 80) {
 				headerRef.current.style.backgroundColor = "#fff";
 				headerRef.current.classList.add("shadow-sm");
 				headerRef.current.style.color = "#666";
-				logoRef.current.style.color = "#e94c51";
 			} else {
 				headerRef.current.style.backgroundColor = "#fff0";
 				headerRef.current.style.color = "#fff";
 				headerRef.current.classList.remove("shadow-sm");
-				logoRef.current.style.color = "#fff";
 			}
 		}
 	};
@@ -37,18 +34,17 @@ export default function () {
 			headerRef.current.style.backgroundColor = "#fff";
 			headerRef.current.classList.add("shadow-sm");
 			headerRef.current.style.color = "#666";
-			logoRef.current.style.color = "#e94c51";
 		}
 		return () => {
-			window.onscroll = () => {};
+			window.onscroll = () => { };
 		};
 	}, [pathname]);
 
 	return (
 		<div className="fixed top-0 left-0 right-0 z-[999] duration-200 text-white" ref={headerRef}>
 			<div className="container flex justify-between h-20 items-center">
-				<Link href="/" className="font-black text-2xl" ref={logoRef}>
-					2amRealty
+				<Link href="/" className="flex items-center">
+					<img src="/images/logo.png" className="w-32"></img>
 				</Link>
 				<div className="flex">
 					<NavItem
