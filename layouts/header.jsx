@@ -36,7 +36,7 @@ export default function () {
 			headerRef.current.style.color = "#666";
 		}
 		return () => {
-			window.onscroll = () => { };
+			window.onscroll = () => {};
 		};
 	}, [pathname]);
 
@@ -83,17 +83,13 @@ export default function () {
 								<Link href="/blogs" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
 									Our Blogs
 								</Link>
-								<Link href="/disclosures" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
-									Disclosures
-								</Link>
-								<Link href="/faq" className="py-2 px-4 hover:bg-[#ccc] text-[#555] duration-200">
-									Faq
-								</Link>
 							</div>
 						}
 						arrowdown
 					/>
 					<NavItem label="ContactUs" href="/contact" />
+					<NavItem label="Disclosures" href="/disclosures" />
+					<NavItem label="Faq" href="/faq" />
 					{loggedIn ? (
 						<NavItem
 							label={<div className="w-10 h-10 grid place-items-center border-2 rounded-full">AB</div>}
